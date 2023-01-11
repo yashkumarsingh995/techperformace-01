@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/innerpage.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom_particals.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/package.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="css/meanmenu.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <title>Tech Performance USA </title>
+</head>
+
+<body>
+    <!-- Social Media Section -->
+    <div class="top_social_medi">
+        <ul class="d-flex align-items-center justify-content-start mb-0">
+            <li>
+                <a href="https://www.facebook.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://join.skype.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/8478892830"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                        viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="top_header_section ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-7">
+                    <div class="iso_sec">
+                        <a href="#">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path
+                                    d="M23 11.99L20.56 9.2l.34-3.69-3.61-.82L15.4 1.5 12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 11.99l2.44 2.79-.34 3.7 3.61.82 1.89 3.2 3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69 2.44-2.8zm-3.95 1.48l-.56.65.08.85.18 1.95-1.9.43-.84.19-.44.74-.99 1.68-1.78-.77-.8-.34-.79.34-1.78.77-.99-1.67-.44-.74-.84-.19-1.9-.43.18-1.96.08-.85-.56-.65L3.67 12l1.29-1.48.56-.65-.09-.86-.18-1.94 1.9-.43.84-.19.44-.74.99-1.68 1.78.77.8.34.79-.34 1.78-.77.99 1.68.44.74.84.19 1.9.43-.18 1.95-.08.85.56.65 1.29 1.47-1.28 1.48z">
+                                </path>
+                                <path d="M10.09 13.75l-2.32-2.33-1.48 1.49 3.8 3.81 7.34-7.36-1.48-1.49z"></path>
+                            </svg> &nbsp; ISO 9001:2015 Certified</a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-5">
+                    <div class="top_right_content">
+                        <ul class="d-flex align-items-center justify-content-end mb-0">
+                            <li>
+                                <a href="mailto:info@theskyrenders.com"><svg stroke="currentColor" fill="currentColor"
+                                        stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path
+                                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z">
+                                        </path>
+                                    </svg> &nbsp; theskyrenders.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+918617724646">
+                                    <img src="img/india.png" class="mr-2" alt="india flag"> (+91) 847 889 2830</a>
+                            </li>
+                            <li>
+                                <a href="tel:+1 415 418 7170"><img src="img/united-states.png" class="mr-2"
+                                        alt="usa flag" /> +1 123 46 789</a>
+                            </li>
+                            <li>
+                                <a href="tel:+61 390 187 372"><img src="img/australia.png" class="mr-2"
+                                        alt="Australia flag" /> +61 123 456 789 </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header_sec header_style2">
+        <div class="main_menu section">
+
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-12 px-2 px-md-5">
+                        <div class="main_nav">
+                            <nav class="navbar navbar-expand-lg p-0">
+                                <div class="brand">
+                                    <!-- <div class="header__logo  js-replace">
+                                        <div class="js-replace__item  js-replace__item--active">
+                                            <div class="js-replace__content">
+                                                <div class="logo"><a href="#"><img src="img/logo-white.png" /></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="js-replace__item">
+                                            <div class="js-replace__content">
+                                                <div class="logo logo--invert"><a href="#"><img
+                                                            src="img/logo.png" /></a></div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                    <ul class="navbar-nav">
+                                        <li><a href="#">Home</a><span></span></li>
+                                        <li><a href="#">About Us</a><span></span></li>
+                                        <li><a href="#">Partner With us</a><span></span></li>
+                                        <li><a href="#">Packages</a><span></span></li>
+
+                                        <li><a href="#">Contact Us</a><span></span></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="menu">
+        <div class="menu_wrapper">
+            <div class="menu__item menu__item--1" data-direction="bt">
+                <div class="menu__item-inner">
+                    <div class="mainmenu">
+                        <a href="#" class="mainmenu__item">It Services</a>
+                        <a href="#" class="mainmenu__item">Bpo Services</a>
+                        <a href="#" class="mainmenu__item">Marketing Services</a>
+                        <a href="#" class="mainmenu__item">Cad Services</a>
+                        <a href="#" class="mainmenu__item">Packages</a>
+                    </div>
+                    <p class="label label--topleft label--vert-mirror">Services We Offered</p>
+                    <div class="menu_address_sec d-flex align-items-center">
+                        <div class="menu_mail_sec">
+                            <h4>Quick Contact</h4>
+                            <li><a href="mailto:theskyrenders.com"><i class="las la-envelope-open-text"></i>
+                                    itheskyrenders.com</a></li>
+                            <li><a href="mailto:theskyrenders.com"><i class="las la-envelope-open-text"></i>
+                                    theskyrenders.com</a></li>
+                        </div>
+                        <div class="menu_address">
+                            <h4>Business Enquiry</h4>
+                            <ul>
+                                <li><a href="#"><img src="img/india.png" /><i class="las la-phone-volume"></i>(+91) 847
+                                        889 2830 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="menu_social">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="lab la-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="lab la-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="lab la-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="lab la-twitter"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="lab la-youtube"></i></a>
+                        <a href="https://join.skype.com/"><i class="lab la-skype"></i></a>
+                        <a href="https://wa.me/84788892830"><i class="lab la-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__item menu__item--2" data-direction="lr">
+                <div class="menu__item-inner">
+                    <div class="sidemenu">
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Back office process
+                                outsourcing</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Call center outsourcing
+                            </span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Ecommerce
+                                outsourcing</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Performance &amp;
+                                Compliance management</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Profesional
+                                Services</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Innovation at
+                                tech performance</span></a>
+                    </div>
+                    <p class="label label--topleft label--vert-mirror">Bpo Services</p>
+                </div>
+            </div>
+            <div class="menu__item menu__item--3" data-direction="bt">
+                <div class="menu__item-inner">
+                    <div class="sidemenu">
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Mobile
+                                Application</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Software
+                                Development</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">UI/UX
+                                Design</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Web
+                                Development</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">QA and
+                                Testing</span></a>
+                    </div>
+                    <p class="label label--topleft label--vert-mirror">It Services</p>
+                </div>
+            </div>
+            <div class="menu__item menu__item--4" data-direction="lr">
+                <div class="menu__item-inner">
+                    <div class="sidemenu">
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">About
+                                Us</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Partner With Us</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Our
+                                Portfolio</span></a>
+
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Contact Us</span></a>
+                    </div>
+                    <p class="label label--topleft label--vert-mirror">Company</p>
+                </div>
+            </div>
+            <div class="menu__item menu__item--5" data-direction="tb">
+                <div class="menu__item-inner">
+                    <div class="sidemenu">
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Search engine
+                                Optimization</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Social media
+                                marketing</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Pay
+                                per click</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Email Marketing</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Content
+                                Marketing</span></a>
+                        <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Google my business
+                                optimization</span></a>
+                    </div>
+                    <p class="label label--topleft label--vert-mirror">Marketing Services</p>
+                </div>
+            </div>
+        </div>
+        <button class="action action--menu"><i class="las la-bars"></i></button>
+        <button class="action action--close"><i class="las la-times"></i></button>
+    </nav>
+
+    <!-- Banner Section  -->
+    <section class="video_slider video_slider_full">
+        <!-- <div class="bg-circle">
+            <img src="img/red-circle-full.svg" alt="">
+        </div> -->
+        <div class="video_content video_content_v2">
+            <div id="typeJS">
+                <p id="testP">We Are<br> <small class="big_excellis">Tech Performance</small></p><span id="testJ"></span>
+            </div>
+        </div>
+        <!--<div class="video_overlay"></div> -->
+
+        <div class="banner_img">
+           <img src="img/banner_webex.webp" alt="">
+        </div>
+
+      
+        <div class="particles-container">
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+           <div class="particle"></div>
+        </div>
+    </section>
+    <!-- About US  -->
+    <section class="about_sec section section--bg" id="section1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 pl-0">
+                    <div class="abt_img">
+                        <img width=900 height=900 src="img/about_webex.gif" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="abt_content">
+                        <div class="new_title_sec2">
+                            <span class="small_title">About Us</span>
+                            <div class="reveal-holder2" data-aos="reveal-item">
+                                <h4 class="">
+                                    <b>
+                                        <div class="reveal-block right" data-aos="reveal-right"></div>We're
+                                    </b>
+                                    <b>
+                                        <div class="reveal-block right" data-aos="reveal-right"></div>Dedicated
+                                    </b>
+                                    <b>
+                                        <div class="reveal-block right" data-aos="reveal-right"></div>Development Center
+                                    </b>
+                                </h4>
+                            </div>
+                        </div>
+                     
+                        <p data-aos="fade-down" data-aos-duration="1500">We see our customers as a guest to a party, and we are the hosts. It is our responsibility to make every essential facet of the customer experience a little better.</p>
+                        <div class="expert_counter mb-4">
+                            <div class="progressBar" data-aos="fade-up" data-aos-duration="500">
+                                <label>Vision</label>
+                                <div class="progressBarcontainer">
+                                    <div class="speech-bubble html">100%</div>
+                                    <div class="progressBarValue ht "></div>
+                                </div>
+                            </div>
+    
+                            <div class="progressBar" data-aos="fade-up" data-aos-duration="1000">
+                                <label>Analysis</label>
+                                <div class="progressBarcontainer">
+                                    <div class="speech-bubble css">85%</div>
+                                    <div class="progressBarValue cs"></div>
+                                </div>
+                            </div>
+    
+                            <div class="progressBar" data-aos="fade-up" data-aos-duration="1500">
+                                <label>Target and Plan</label>
+                                <div class="progressBarcontainer">
+                                    <div class="speech-bubble javascript">93%</div>
+                                    <div class="progressBarValue js"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="banner_btn animate__slideInUp animate__animated">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Scetion  -->
+    <section class="we_offerd_sec section">
+        <div class="canvas_wrapper">
+            <div id="canvas"></div>
+        </div>
+        <div class="it_services_sec_new">
+            <div class="it_services_heading_sec_new">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tiitle_new_inner">
+                                <span>It Services</span>
+                                <div class="reveal-holder" data-aos="reveal-item">
+                                    <h2 class="">
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>We Build
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>Custom Software Today
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>For Your Better Tomorrow
+                                        </b>
+                                    </h2>
+                                </div>
+                                <a href="it-services.html">Explore More <i class="las la-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 left_bg_color">
+                        <div class="new_it_services_inner">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="left_tab_sec new_left_tab">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <a class="nav-link active" id="v-pills-services1-tab" data-toggle="pill" href="index.php.html#v-pills-services1" role="tab" aria-controls="v-pills-services1" aria-selected="true">
+                                                <div class="single_serv_tab">
+                                                    <div class="serv_tab_text">
+                                                        <h4>Web Development</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="nav-link" id="v-pills-services2-tab" data-toggle="pill" href="index.php.html#v-pills-services2" role="tab" aria-controls="v-pills-services2" aria-selected="false">
+                                                <div class="single_serv_tab">
+                                                    <div class="serv_tab_text">
+                                                        <h4>UI/UX RESEARCH AND DESIGN</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="nav-link" id="v-pills-services3-tab" data-toggle="pill" href="index.php.html#v-pills-services3" role="tab" aria-controls="v-pills-services3" aria-selected="false">
+                                                <div class="single_serv_tab">
+                                                    <div class="serv_tab_text">
+                                                        <h4>MOBILE APPLICATION</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="nav-link" id="v-pills-services4-tab" data-toggle="pill" href="index.php.html#v-pills-services4" role="tab" aria-controls="v-pills-services4" aria-selected="false">
+                                                <div class="single_serv_tab">
+                                                    <div class="serv_tab_text">
+                                                        <h4>SOFTWARE DEVELOPMENT</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="nav-link" id="v-pills-services5-tab" data-toggle="pill" href="index.php.html#v-pills-services5" role="tab" aria-controls="v-pills-services5" aria-selected="false">
+                                                <div class="single_serv_tab">
+                                                    <div class="serv_tab_text">
+                                                        <h4>QA & TESTING</h4>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="right_tab_details">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-services1" role="tabpanel" aria-labelledby="v-pills-services1-tab">
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/web-development.png" />
+                                                            <h4>Custom web development</h4>
+                                                            <p>As the top web development company in India, we build SEO friendly, mobile responsive websites precisely tailored to your requirement. We provide all round services in designing, developing and maintaining an effective web presence for your business.</p>
+                                                            <a href="web-development.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/mean-stack.png" />
+                                                            <h4>Mean-stack development</h4>
+                                                            <p>With a strategic approach and creative mind, our mean-stack website developers can craft industry-standard web applications that help in unleashing the full potential of your business. Engage our mean-stack web development services to get future-ready websites</p>
+                                                            <a href="web-development.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/mobile-app.png" />
+                                                            <h4>Hybrid app development</h4>
+                                                            <p>we make native alike hybrid apps on latest cross-platform frameworks. As a company, we combine the best of the web and native apps to develop high-performance cross-platform mobile apps that behave like native on iOS, Android and Windows mobile platforms.</p>
+                                                            <a href="web-development.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/react.png" />
+                                                            <h4>React native development</h4>
+                                                            <p>We take a step-by-step approach to ensure a smooth workflow. Our React Native Development teams work closely with the client and update them on each step of the development process.</p>
+                                                            <a href="index.php.html#" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-services2" role="tabpanel" aria-labelledby="v-pills-services2-tab">
+                                                <div class="animate__animated animate__zoomIn">
+                                                    <div class="slide_wrapper row">
+                                                        <div class="col-md-6">
+                                                            <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                                <img src="img/icon/ui-design.png" />
+                                                                <h4>User experience design</h4>
+                                                                <p>Our expertise in User Experience Design (UX) has enabled us to simplify and enhance the interaction between our clients’ target customers and their digital presence.</p>
+                                                                <a href="ui-ux-design.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                                <img src="img/icon/ui-ux-design.png" />
+                                                                <h4>User interface and UI design</h4>
+                                                                <p>User Interface design is what gives a user the first impression of your site or app. We design user experiences that effectively ensure your digital solution becomes a lovable product</p>
+                                                                <a href="ui-ux-design.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="slide_wrapper row">
+                                                        <div class="col-md-6">
+                                                            <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                                <img src="img/icon/ux-design.png" />
+                                                                <h4>UX audit</h4>
+                                                                <p>Our UX Audit is designed to reveal the areas of opportunities and pain points by mapping the user journey of your system. We conduct a user-centric analysis of your chosen system to evaluate its ease of use, to meet business goals using various research methods.</p>
+                                                                <a href="ui-ux-design.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                                <img src="img/icon/frontend.png" />
+                                                                <h4>Frontend development</h4>
+                                                                <p>We follow agile front-end development methodology, programming practices, coding standards and incorporate UI/UX design into every stage of the app development life-cycle, ensuring that end-user needs are critical to the entire application development process</p>
+                                                                <a href="ui-ux-design.html" class="read_more_serv">Read More<i class="las la-long-arrow-alt-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-services3" role="tabpanel" aria-labelledby="v-pills-services3-tab">
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/android.png" />
+                                                            <h4>Android app development</h4>
+                                                            <p>: Our experts know every corner of the Android platform, down to its core. We have the experience of working with every Android device type. Our Android app development services will give you a reliable product that appeals to the platform’s users.</p>
+                                                            <a href="#mobile-application" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/ios.png" />
+                                                            <h4>IOS app development</h4>
+                                                            <p>We deliver prominent and hassle-free iOS iPhone & iPad apps development services, using effective problem-solving solutions. Our development process incorporates proven and cutting-edge methodologies and techniques.</p>
+                                                            <a href="#mobile-application" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/mobile-app.png" />
+                                                            <h4>Hybrid app development</h4>
+                                                            <p>We understand the hype of advanced hybrid app frameworks. We offer a complete spectrum of hybrid app development services that include strategic planning, proper implementation of mobile technology, quality checks, and maintenance.</p>
+                                                            <a href="#mobile-application" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/react.png" />
+                                                            <h4>React native app development</h4>
+                                                            <p>We help you develop an app that offers a native UX or one that is faster to create and operate using the React Native framework. we have extremely refined approaches and methods that help us successfully deploy hundreds of innovative solutions globally.</p>
+                                                            <a href="#mobile-application" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-services4" role="tabpanel" aria-labelledby="v-pills-services4-tab">
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/web-development.png" />
+                                                            <h4>Custom software development</h4>
+                                                            <p>tech performance studio has grown into a team of professionals who provides custom software development services. Our team has a proven track record in developing custom software solutions for large enterprise organizations, mid-sized and small companies across the globe.</p>
+                                                            <a href="software-development.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/sass.png" />
+                                                            <h4>SAAS app development</h4>
+                                                            <p>With our end-to-end approach to SaaS development services, we implement all the required components for a successful SaaS solution: mobile apps, web apps, cloud hosting, APIs and efficient data storage.</p>
+                                                            <a href="software-development.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/crm.png" />
+                                                            <h4>CRM development</h4>
+                                                            <p>Automate your business operations by our provided CRM solutions. We have a rewarding set of CRM development Services which allows you to know what makes your customers tick to buy a certain product or service for assured long term relations.</p>
+                                                            <a href="software-development.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/chatbot.png" />
+                                                            <h4>Chatbot development</h4>
+                                                            <p>We aim to revolutionize the way businesses interact with customers and streamline interactions. We provide our customers with a full cycle of chatbot`s development leading to the chatbot`s success.</p>
+                                                            <a href="software-development.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-services5" role="tabpanel" aria-labelledby="v-pills-services5-tab">
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/manual-testing.png" />
+                                                            <h4>Manual testing</h4>
+                                                            <p>As a professional company for manual testing, we provide extensive reporting with customized dashboards at regular intervals to keep you on top of the testing progress and defects.</p>
+                                                            <a href="QA-testing.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/automate-testing.png" />
+                                                            <h4>Automated testing</h4>
+                                                            <p>tech performance studio is one of the leading automation testing companies that generates the value you always wanted through test automation.</p>
+                                                            <a href="QA-testing.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="slide_wrapper row">
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInDown">
+                                                            <img src="img/icon/performance-testing.png" />
+                                                            <h4>Performance testing</h4>
+                                                            <p>Whether you're building or upgrading a web application, mobile app, or website, we pride ourselves on delivering a comprehensive and affordable Performance Testing service - planning, scripting, executing and reporting.</p>
+                                                            <a href="QA-testing.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="single_serv_det animate__animated animate__fadeInUp">
+                                                            <img src="img/icon/usability.png" />
+                                                            <h4>Usability testing</h4>
+                                                            <p>We have built a mobile usability testing methodology based on our experience with a wide range of our clients. To provide a comprehensive set of software testing services.</p>
+                                                            <a href="QA-testing.html" class="read_more_serv">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Marketing_services_sec section">
+            <div class="it_services_heading_sec_new">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="tiitle_new_inner">
+                                <span>Marketing Services</span>
+                                <div class="reveal-holder" data-aos="reveal-item">
+                                    <h2 class="">
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>We Pride
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>Ourselves in
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div> providing the best
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div> Marketing Solution
+                                        </b>
+                                    </h2>
+                                </div>
+                                <a href="digital-marketing.html">Explore More <i class="las la-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-search"></i>
+                            <img src="img/icon/seo.png" class="color_bpo" />
+                            <h4>Search engine Marketing</h4>
+                            <p>Put your image before clients who are now effectively looking on Google, Bing, YouTube, or other search engines.</p>
+                            <a href="#search-engine-marketing" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-share-alt"></i>
+                            <img src="img/icon/smo.png" class="color_bpo" />
+                            <h4>Social media marketing </h4>
+                            <p>At tech perfromance, we are a leading social media management company which extends reliable and comprehensive services for businesses</p>
+                            <a href="social-media-marketing.html" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-hand-pointer"></i>
+                            <img src="img/icon/ppc.png" class="color_bpo" />
+                            <h4>Pay per click</h4>
+                            <p>PPC, or pay-per-click advertising, is one of the best ways to target your most qualified audience.</p>
+                            <a href="" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-at"></i>
+                            <img src="img/icon/email.png" class="color_bpo" />
+                            <h4>Email marketing </h4>
+                            <p>tech performance is a trusted Do-It-Yourself email marketing services that number of businesses use when they need to send email campaigns,</p>
+                            <a href="email-marketing.html" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-pen-alt"></i>
+                            <img src="img/icon/content.png" class="color_bpo" />
+                            <h4>Content marketing</h4>
+                            <p>Make content marketing hassle-free with our content marketing services. With our content marketing service packages,</p>
+                            <a href="" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+                        <div class="single_marketing_serv text-center">
+                            <i class="las la-cog"></i>
+                            <img src="img/icon/conversion-rate.png" class="color_bpo" />
+                            <h4>Conversion rate optimisation</h4>
+                            <p>All the traffic in the world means nothing if it’s not converting into paying customers, sales, or clients.</p>
+                            <a href="conversion-rate-optimization.html" class="marketing_red_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cad_services_sec">
+            <div class="animation-wrapper">
+                <div class="sphere-animation2">
+                    <svg class="sphere2" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
+                        <defs>
+                            <linearGradient id="sphereGradient2" x1="5%" x2="5%" y1="0%" y2="15%">
+                                <stop stop-color="#373734" offset="0%" />
+                                <stop stop-color="#242423" offset="50%" />
+                                <stop stop-color="#0D0D0C" offset="100%" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M361.604 361.238c-24.407 24.408-51.119 37.27-59.662 28.727-8.542-8.543 4.319-35.255 28.726-59.663 24.408-24.407 51.12-37.269 59.663-28.726 8.542 8.543-4.319 35.255-28.727 59.662z" />
+                        <path d="M360.72 360.354c-35.879 35.88-75.254 54.677-87.946 41.985-12.692-12.692 6.105-52.067 41.985-87.947 35.879-35.879 75.254-54.676 87.946-41.984 12.692 12.692-6.105 52.067-41.984 87.946z" />
+                        <path d="M357.185 356.819c-44.91 44.91-94.376 68.258-110.485 52.149-16.11-16.11 7.238-65.575 52.149-110.485 44.91-44.91 94.376-68.259 110.485-52.15 16.11 16.11-7.239 65.576-52.149 110.486z" />
+                        <path d="M350.998 350.632c-53.21 53.209-111.579 81.107-130.373 62.313-18.794-18.793 9.105-77.163 62.314-130.372 53.209-53.21 111.579-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z" />
+                        <path d="M343.043 342.677c-59.8 59.799-125.292 91.26-146.283 70.268-20.99-20.99 10.47-86.483 70.269-146.282 59.799-59.8 125.292-91.26 146.283-70.269 20.99 20.99-10.47 86.484-70.27 146.283z" />
+                        <path d="M334.646 334.28c-65.169 65.169-136.697 99.3-159.762 76.235-23.065-23.066 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z" />
+                        <path d="M324.923 324.557c-69.806 69.806-146.38 106.411-171.031 81.76-24.652-24.652 11.953-101.226 81.759-171.032 69.806-69.806 146.38-106.411 171.031-81.76 24.652 24.653-11.953 101.226-81.759 171.032z" />
+                        <path d="M312.99 312.625c-73.222 73.223-153.555 111.609-179.428 85.736-25.872-25.872 12.514-106.205 85.737-179.428s153.556-111.609 179.429-85.737c25.872 25.873-12.514 106.205-85.737 179.429z" />
+                        <path d="M300.175 299.808c-75.909 75.909-159.11 115.778-185.837 89.052-26.726-26.727 13.143-109.929 89.051-185.837 75.908-75.908 159.11-115.778 185.837-89.051 26.726 26.726-13.143 109.928-89.051 185.836z" />
+                        <path d="M284.707 284.34c-77.617 77.617-162.303 118.773-189.152 91.924-26.848-26.848 14.308-111.534 91.924-189.15C265.096 109.496 349.782 68.34 376.63 95.188c26.849 26.849-14.307 111.535-91.923 189.151z" />
+                        <path d="M269.239 267.989c-78.105 78.104-163.187 119.656-190.035 92.807-26.849-26.848 14.703-111.93 92.807-190.035 78.105-78.104 163.187-119.656 190.035-92.807 26.849 26.848-14.703 111.93-92.807 190.035z" />
+                        <path d="M252.887 252.52C175.27 330.138 90.584 371.294 63.736 344.446 36.887 317.596 78.043 232.91 155.66 155.293 233.276 77.677 317.962 36.521 344.81 63.37c26.85 26.848-14.307 111.534-91.923 189.15z" />
+                        <path d="M236.977 236.61C161.069 312.52 77.867 352.389 51.14 325.663c-26.726-26.727 13.143-109.928 89.052-185.837 75.908-75.908 159.11-115.777 185.836-89.05 26.727 26.726-13.143 109.928-89.051 185.836z" />
+                        <path d="M221.067 220.7C147.844 293.925 67.51 332.31 41.639 306.439c-25.873-25.873 12.513-106.206 85.736-179.429C200.6 53.786 280.931 15.4 306.804 41.272c25.872 25.873-12.514 106.206-85.737 179.429z" />
+                        <path d="M205.157 204.79c-69.806 69.807-146.38 106.412-171.031 81.76-24.652-24.652 11.953-101.225 81.759-171.031 69.806-69.807 146.38-106.411 171.031-81.76 24.652 24.652-11.953 101.226-81.759 171.032z" />
+                        <path d="M189.247 188.881c-65.169 65.169-136.696 99.3-159.762 76.235-23.065-23.065 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z" />
+                        <path d="M173.337 172.971c-59.799 59.8-125.292 91.26-146.282 70.269-20.991-20.99 10.47-86.484 70.268-146.283 59.8-59.799 125.292-91.26 146.283-70.269 20.99 20.991-10.47 86.484-70.269 146.283z" />
+                        <path d="M157.427 157.061c-53.209 53.21-111.578 81.108-130.372 62.314-18.794-18.794 9.104-77.164 62.313-130.373 53.21-53.209 111.58-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z" />
+                        <path d="M141.517 141.151c-44.91 44.91-94.376 68.259-110.485 52.15-16.11-16.11 7.239-65.576 52.15-110.486 44.91-44.91 94.375-68.258 110.485-52.15 16.109 16.11-7.24 65.576-52.15 110.486z" />
+                        <path d="M125.608 125.241c-35.88 35.88-75.255 54.677-87.947 41.985-12.692-12.692 6.105-52.067 41.985-87.947C115.525 43.4 154.9 24.603 167.592 37.295c12.692 12.692-6.105 52.067-41.984 87.946z" />
+                        <path d="M109.698 109.332c-24.408 24.407-51.12 37.268-59.663 28.726-8.542-8.543 4.319-35.255 28.727-59.662 24.407-24.408 51.12-37.27 59.662-28.727 8.543 8.543-4.319 35.255-28.726 59.663z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <div class="bpo_services_title">
+                            <div class="tiitle_new_inner">
+                                <span>CAD Services</span>
+                                <div class="reveal-holder white_title" data-aos="reveal-item">
+                                    <h2 class="">
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>Turning
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>Your Ideas
+                                        </b>
+                                        <b>
+                                            <div class="reveal-block right" data-aos="reveal-right"></div>Into Reality
+                                        </b>
+                                    </h2>
+                                </div>
+                                <a href="CAD-drawing-services.html">Explore More <i class="las la-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5 cad__archi" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="col-md-7">
+                        <div class="cad_archi_home_serv_con" data-aos="fade-down" data-aos-duration="1000">
+                            <h4>Architecture</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, praesentium animi. Maiores culpa vitae consequatur rerum unde laborum? Veritatis unde ad earum voluptatibus, excepturi consequuntur laboriosam ut sint odio quo.</p>
+                            <a href="CAD-drawing-services.html" class="bpo_red_more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="cad_archi_home_serv_img" data-aos="fade-down" data-aos-duration="1000">
+                            <img src="img/archi2.jpg" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5 cad__archi" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="col-md-5">
+                        <div class="cad_archi_home_serv_img" data-aos="fade-down" data-aos-duration="1000">
+                            <img src="img/mechanical_cad.jpg" class="img-fluid" />
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="cad_archi_home_serv_con" data-aos="fade-down" data-aos-duration="1000">
+                            <h4>Mechanical</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea rem ipsam error officia odio reprehenderit iste, mollitia dicta neque a et quidem eos cumque maxime dolorem architecto minus commodi laudantium.</p>
+                            <a href="CAD-drawing-services.html" class="bpo_red_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-item" data-spy="scroll" data-target=".make-me-sticky" data-offset="50" data-spy="affix">
+            <div class="make-me-sticky">
+                <h4 class="m-0">Our Offering</h4>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section review_section section section--bg">
+        <div class="container">
+    
+            <div class="new_title_sec2">
+                <span class="small_title">Reviews</span>
+                <div class="reveal-holder2" data-aos="reveal-item">
+                    <h4 class="">
+                        <b>
+                            <div class="reveal-block right" data-aos="reveal-right"></div>We are loved
+                        </b>
+                        <b>
+                            <div class="reveal-block right" data-aos="reveal-right"></div>by our clients
+                        </b>
+                    </h4>
+                </div>
+            </div>
+    
+            <div class="testimonial-carousel owl-carousel owl-theme">
+                <!-- Testimonial Block -->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ipsum quibusdam rerum, ab possimus, debitis distinctio eligendi nostrum recusandae blanditiis, autem rem non enim. Asperiores architecto omnis exercitationem officia animi.
+                        Expedita in illum sit beatae consequuntur voluptatum debitis cum a distinctio facere repellendus suscipit quis, deserunt quos, dolore enim placeat ullam nesciunt necessitatibus? Mollitia delectus laborum voluptas tempora cumque numquam!
+                        Nobis corporis sapiente optio minima animi perferendis sequi neque laborum, nulla, ullam amet exercitationem unde ex aut dolore. Pariatur placeat incidunt eius commodi facilis fugiat, tempore numquam cupiditate quae sapiente.
+                        Quo commodi numquam, earum tempora nihil, iure sapiente ullam dicta quia at sit nobis totam nostrum ipsa? Nihil quo quia explicabo ad consequuntur, cupiditate aspernatur reprehenderit odio incidunt dicta magni.</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="img/client1.jpg" alt=""></div>
+                            <h4 class="name">Yash</h4>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Testimonial Block -->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">"I have to thank you for your professional services in making my website come true. You’re very detailed & focused on making my site very informative & inspiring. Thank you again, tech performance. "</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="img/client2.jpg" alt=""></div>
+                            <h4 class="name">RAFI</h4>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Testimonial Block -->
+                <div class="testimonial-block">
+                    <div class="inner-box">
+                        <div class="text">"tech performance, thank you for all you have done for me and my business. You guys have been great to work with. "</div>
+                        <div class="info-box">
+                            <div class="thumb"><img src="http://t.commonsupport.com/adro/images/resource/thumb-1.jpg" alt=""></div>
+                            <h4 class="name">YASH</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thumb-layer paroller">
+                <figure class="image"><img src="img/user-thumbs.png" alt=""></figure>
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section -->
+
+    <section class="blog_sec page-section section section--bg" id="9">      
+        <div class="container">
+        <div class="main_sec color_black">
+              <span class="small_title">Insight</span>
+            <h3><b>Stay ahead of the <span>curve</span></b></h3>          
+            <p>Unlock Visibility, Engagement & Conversion for Your Projects!</p>
+          </div>
+          <div class="position-relative">
+  
+          <div class="bg_most">
+            <span>Most Popular</span>
+          </div>
+          
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="left_blog_sec" data-aos="fade-up" data-aos-duration="1000">
+                <div class="blog_img_big">
+                  <img src="img/text_1.jpg"/>
+                </div>
+                <div class="blog_content_big mt-2">
+                  <h4>Is Node.js App Development The Right Choice For Your Application In 2021?</h4>
+                  <span>August 4, 2021</span>
+                  <p>Coming to its technology front, Netflix was using Java on the server-side and Javascript on the front side, so this was a two-way coding. Everything h...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="right_blog mb-3" data-aos="fade-up" data-aos-duration="1500">
+                <div class="row">
+                  <div class="col-xl-5">
+                    <div class="blog_img_small">
+                      <img src="img/text_2.jpg"/>
+                    </div>                  
+                  </div>
+                  <div class="col-xl-7">
+                    <div class="blog_content_small">
+                      <h4>DevOps - The Ultimate Guide For Your Business</h4>
+                      <span>August 4, 2021</span>
+                      <p>Netflix ver-side and two-way coding. Everything h...</p>
+                    </div>                 
+                  </div>
+                </div>
+              </div>
+              <div class="right_blog mb-3" data-aos="fade-up" data-aos-duration="2000">
+                <div class="row">                
+                  <div class="col-xl-7">
+                    <div class="blog_content_small">
+                      <h4>DevOps - The Ultimate Guide For Your Business</h4>
+                      <span>August 4, 2021</span>
+                      <p>Coming to its technology front, so this Everything h...</p>
+                    </div>                 
+                  </div>
+                  <div class="col-xl-5">
+                    <div class="blog_img_small">
+                      <img src="img/text_3.jpg"/>
+                    </div>                  
+                  </div>
+                </div>
+              </div>
+              <div class="right_blog mb-3" data-aos="fade-up" data-aos-duration="2500">
+                <div class="row">
+                  <div class="col-xl-5">
+                    <div class="blog_img_small">
+                      <img src="img/text_4.jpg"/>
+                    </div>                  
+                  </div>
+                  <div class="col-xl-7">
+                    <div class="blog_content_small">
+                      <h4>DevOps - The Ultimate Guide For Your Business</h4>
+                      <span>August 4, 2021</span>
+                      <p>Coming to its technology front, Everything h...</p>
+                    </div>                 
+                  </div>
+                </div>
+              </div>
+            </div>          
+          </div>
+          </div>
+        </div>      
+      </section>
+
+      <section class="footer_sec">
+        <footer id="section10" class="section footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <div class="footer_ect_sec">
+                            <ul>
+                                <li>
+                                    <img class="footer_logo" src="img/" alt="" />
+                                </li>
+                                <li class="mt-3">
+                                    <p><b>Our clients in other countries:</b></p>
+                                    <img src="img/country.png" class="img-fluid" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+    
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>IT Services</h6>
+                                <div class="footer-links footer_menu d-flex">
+                                    <ul>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Mobile Application</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Software Development</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>UI/UX Design</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Web Development</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>QA and Testing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>CAD Services</a></li>
+    
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>BPO Services</h6>
+                                <div class="footer-links footer_menu d-flex">
+                                    <ul>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Back office process outsourcing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Call center outsourcing </a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Ecommerce outsourcing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Performance & Compliance</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Profesional Services</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Innovation at tech performance</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Marketing Services</h6>
+                                <div class="footer-links footer_menu d-flex">
+                                    <ul>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Search engine Marketing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Social media marketing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Pay per click</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Email Marketing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Content Marketing</a></li>
+                                        <li><a href="#"><i class="las la-arrow-right"></i>Google my business optimization</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <section class="trial-block w-100 shadow3" id="ContactUs">
+    
+                        <div class="height450">
+                            <div class="social-overlap process-scetion mt100">
+                                <div class="container">
+                                    <div class="privacy-policy-link row">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="get-in-touch-footer">
+                                                <h2 class="contact-deatils-heading pull-left getin-touch-text">Get In Touch:</h2>
+                                                <ul class="footer-last-contact-details">
+                                                    <li><a href="#"> info@theskyrenders.com</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-lg-2 col-md-4 col-12">
+                                            <div class="payment_option">
+                                                <a href="#"><img src="img/paynow_btn.png"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+    
+            </div>
+            <div class="copyright_sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="copyright">
+                                <p>© <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Created By :THE SKY RENDERS</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="copyright_menu">
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Term and Condition</a></li>
+                                    <li><a href="#">About tech performance</a></li>
+                                    <li><a href="#">Learning Center</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+  
+    <script type="application/javascript" src="js/owl.carousel.js"></script>
+    <script type="application/javascript" src="js/aos.js"></script>
+    <script src='js/jquery.mixitup.min.js'></script>
+    <script type="application/javascript" src="js/jquary-meanmenu.js"></script>
+    <script type="application/javascript" src="js/custom.js"></script>
+    <script defer type="application/javascript" src="js/typed.js"></script>
+    <script defer type="application/javascript" src="js/TweenMax.min.js"></script>
+    <script defer type="application/javascript" src="js/navigation.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/three.min.js"></script>
+
+
+
+    <script>
+        function fitElementToParent(el, padding) {
+            var timeout = null;
+    
+            function resize() {
+                if (timeout) clearTimeout(timeout);
+                anime.set(el, {
+                    scale: 1
+                });
+                var pad = padding || 0;
+                var parentEl = el.parentNode;
+                var elOffsetWidth = el.offsetWidth - pad;
+                var parentOffsetWidth = parentEl.offsetWidth;
+                var ratio = parentOffsetWidth / elOffsetWidth;
+                timeout = setTimeout(anime.set(el, {
+                    scale: ratio
+                }), 10);
+            }
+            resize();
+            window.addEventListener("resize", resize);
+        }
+    
+        var sphereAnimation = (function() {
+            var sphereEl = document.querySelector(".sphere-animation");
+            var spherePathEls = sphereEl.querySelectorAll(".sphere path");
+            var pathLength = spherePathEls.length;
+            var hasStarted = false;
+            var aimations = [];
+    
+            fitElementToParent(sphereEl);
+    
+            var breathAnimation = anime({
+                begin: function() {
+                    for (var i = 0; i < pathLength; i++) {
+                        aimations.push(
+                            anime({
+                                targets: spherePathEls[i],
+                                stroke: {
+                                    value: ["rgba(255,75,75,1)", "rgba(80,80,80,.35)"],
+                                    duration: 500
+                                },
+                                translateX: [2, -4],
+                                translateY: [2, -4],
+                                easing: "easeOutQuad",
+                                autoplay: false
+                            })
+                        );
+                    }
+                },
+                update: function(ins) {
+                    aimations.forEach(function(animation, i) {
+                        var percent = (1 - Math.sin(i * 0.35 + 0.0022 * ins.currentTime)) / 2;
+                        animation.seek(animation.duration * percent);
+                    });
+                },
+                duration: Infinity,
+                autoplay: false
+            });
+    
+            var introAnimation = anime
+                .timeline({
+                    autoplay: false
+                })
+                .add({
+                        targets: spherePathEls,
+                        strokeDashoffset: {
+                            value: [anime.setDashoffset, 0],
+                            duration: 3900,
+                            easing: "easeInOutCirc",
+                            delay: anime.stagger(190, {
+                                direction: "reverse"
+                            })
+                        },
+                        duration: 2000,
+                        delay: anime.stagger(60, {
+                            direction: "reverse"
+                        }),
+                        easing: "linear"
+                    },
+                    0
+                );
+    
+            var shadowAnimation = anime({
+                    targets: "#sphereGradient",
+                    x1: "25%",
+                    x2: "25%",
+                    y1: "0%",
+                    y2: "75%",
+                    duration: 30000,
+                    easing: "easeOutQuint",
+                    autoplay: false
+                },
+                0
+            );
+    
+            function init() {
+                introAnimation.play();
+                breathAnimation.play();
+                shadowAnimation.play();
+            }
+    
+            init();
+        })();
+    
+    </script>
+    
+    
+    <script>
+        function fitElementToParent(el, padding) {
+            var timeout = null;
+    
+            function resize() {
+                if (timeout) clearTimeout(timeout);
+                anime.set(el, {
+                    scale: 1
+                });
+                var pad = padding || 0;
+                var parentEl = el.parentNode;
+                var elOffsetWidth = el.offsetWidth - pad;
+                var parentOffsetWidth = parentEl.offsetWidth;
+                var ratio = parentOffsetWidth / elOffsetWidth;
+                timeout = setTimeout(anime.set(el, {
+                    scale: ratio
+                }), 10);
+            }
+            resize();
+            window.addEventListener("resize", resize);
+        }
+    
+        var sphereAnimation = (function() {
+            var sphereEl = document.querySelector(".sphere-animation2");
+            var spherePathEls = sphereEl.querySelectorAll(".sphere2 path");
+            var pathLength = spherePathEls.length;
+            var hasStarted = false;
+            var aimations = [];
+    
+            fitElementToParent(sphereEl);
+    
+            var breathAnimation = anime({
+                begin: function() {
+                    for (var i = 0; i < pathLength; i++) {
+                        aimations.push(
+                            anime({
+                                targets: spherePathEls[i],
+                                stroke: {
+                                    value: ["rgba(255,75,75,1)", "rgba(80,80,80,.35)"],
+                                    duration: 500
+                                },
+                                translateX: [2, -4],
+                                translateY: [2, -4],
+                                easing: "easeOutQuad",
+                                autoplay: false
+                            })
+                        );
+                    }
+                },
+                update: function(ins) {
+                    aimations.forEach(function(animation, i) {
+                        var percent = (1 - Math.sin(i * 0.35 + 0.0022 * ins.currentTime)) / 2;
+                        animation.seek(animation.duration * percent);
+                    });
+                },
+                duration: Infinity,
+                autoplay: false
+            });
+    
+            var introAnimation = anime
+                .timeline({
+                    autoplay: false
+                })
+                .add({
+                        targets: spherePathEls,
+                        strokeDashoffset: {
+                            value: [anime.setDashoffset, 0],
+                            duration: 3900,
+                            easing: "easeInOutCirc",
+                            delay: anime.stagger(190, {
+                                direction: "reverse"
+                            })
+                        },
+                        duration: 2000,
+                        delay: anime.stagger(60, {
+                            direction: "reverse"
+                        }),
+                        easing: "linear"
+                    },
+                    0
+                );
+    
+            var shadowAnimation = anime({
+                    targets: "#sphereGradient2",
+                    x1: "25%",
+                    x2: "25%",
+                    y1: "0%",
+                    y2: "75%",
+                    duration: 30000,
+                    easing: "easeOutQuint",
+                    autoplay: false
+                },
+                0
+            );
+    
+            function init() {
+                introAnimation.play();
+                breathAnimation.play();
+                shadowAnimation.play();
+            }
+    
+            init();
+        })();
+    
+    </script>
+    
+    
+    <script>
+        var renderer, scene, camera, composer, circle, skelet, particle;
+    
+        window.onload = function() {
+            init();
+            animate();
+        };
+    
+        function init() {
+            renderer = new THREE.WebGLRenderer({
+                antialias: true,
+                alpha: true
+            });
+            renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.autoClear = false;
+            renderer.setClearColor(0x000000, 0.0);
+            document.getElementById("canvas").appendChild(renderer.domElement);
+    
+            scene = new THREE.Scene();
+    
+            camera = new THREE.PerspectiveCamera(
+                75,
+                window.innerWidth / window.innerHeight,
+                1,
+                1000
+            );
+            camera.position.z = 330;
+            scene.add(camera);
+    
+            circle = new THREE.Object3D();
+            skelet = new THREE.Object3D();
+            particle = new THREE.Object3D();
+    
+            scene.add(circle);
+            scene.add(skelet);
+            scene.add(particle);
+    
+            var geometry = new THREE.TetrahedronGeometry(2, 0);
+            var geom = new THREE.IcosahedronGeometry(7, 1);
+            var geom2 = new THREE.IcosahedronGeometry(15, 1);
+    
+            var material = new THREE.MeshPhongMaterial({
+                color: 0xffffff,
+                shading: THREE.FlatShading
+            });
+    
+            for (var i = 0; i < 1000; i++) {
+                var mesh = new THREE.Mesh(geometry, material);
+                mesh.position
+                    .set(Math.random() - 0.5, Math.random() - 0.5, Math.random() - 0.5)
+                    .normalize();
+                mesh.position.multiplyScalar(90 + Math.random() * 700);
+                mesh.rotation.set(Math.random() * 2, Math.random() * 2, Math.random() * 2);
+                particle.add(mesh);
+            }
+    
+            var mat = new THREE.MeshPhongMaterial({
+                color: 0x76006a,
+                shading: THREE.FlatShading
+            });
+    
+            var mat2 = new THREE.MeshPhongMaterial({
+                color: 0xffffff,
+                wireframe: true,
+                side: THREE.DoubleSide
+            });
+    
+            // var planet = new THREE.Mesh(geom, mat);
+            // planet.scale.x = planet.scale.y = planet.scale.z = 16;
+            // circle.add(planet);
+    
+            // var planet2 = new THREE.Mesh(geom2, mat2);
+            // planet2.scale.x = planet2.scale.y = planet2.scale.z = 11;
+            // skelet.add(planet2);
+    
+            var ambientLight = new THREE.AmbientLight(0xff5900);
+            scene.add(ambientLight);
+    
+            var lights = [];
+            lights[0] = new THREE.DirectionalLight(0xdd100e, 1);
+            lights[0].position.set(1, 0, 0);
+            lights[1] = new THREE.DirectionalLight(0xea6117, 1);
+            lights[1].position.set(0.75, 1, 0.5);
+            lights[2] = new THREE.DirectionalLight(0xdd100e, 1);
+            lights[2].position.set(-0.75, -1, 0.5);
+            scene.add(lights[0]);
+            scene.add(lights[1]);
+            scene.add(lights[2]);
+    
+            window.addEventListener("resize", onWindowResize, false);
+        }
+    
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+    
+        function animate() {
+            requestAnimationFrame(animate);
+    
+            particle.rotation.x += 0.0;
+            particle.rotation.y -= 0.0004;
+            circle.rotation.x -= 0.0002;
+            circle.rotation.y -= 0.0003;
+            skelet.rotation.x -= 0.0001;
+            skelet.rotation.y += 0.0012;
+            renderer.clear();
+    
+            renderer.render(scene, camera);
+        }
+    
+    </script>
+    
+    <script>
+        const wave1 =
+            "M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z",
+            wave2 =
+            "M0 250L50 244.048C100 238.095 200 226.19 300 226.19C400 226.19 500 238.095 600 232.143C700 226.19 800 202.381 900 196.429C1000 190.476 1100 202.381 1150 208.333L1200 214.286V0H1150C1100 0 1000 0 900 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0H0V250Z",
+            wave3 =
+            "M0 250L50 238.095C100 226.19 200 202.381 300 166.667C400 130.952 500 83.3333 600 101.19C700 119.048 800 202.381 900 214.286C1000 226.19 1100 166.667 1150 136.905L1200 107.143V0H1150C1100 0 1000 0 900 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0H0V250Z",
+            wave4 =
+            "M0 125L50 111.111C100 97.2222 200 69.4444 300 97.2222C400 125 500 208.333 600 236.111C700 263.889 800 236.111 900 229.167C1000 222.222 1100 236.111 1150 243.056L1200 250V0H1150C1100 0 1000 0 900 0C800 0 700 0 600 0C500 0 400 0 300 0C200 0 100 0 50 0H0V125Z";
+    
+        anime({
+            targets: ".wave-top > path",
+            easing: "linear",
+            duration: 15000,
+            loop: true,
+            d: [{
+                    value: [wave1, wave2]
+                },
+                {
+                    value: wave3
+                },
+                {
+                    value: wave4
+                },
+                {
+                    value: wave1
+                }
+            ]
+        });
+    
+    </script>
+    
+    <script>
+        $(function() {
+            $("#footerfrm").on("submit", function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: "contact.php",
+                    type: "POST",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    processData: false,
+                    cache: false,
+                    beforeSend: function() {
+                        $("#footer_submit").prop('disabled', true);
+                        $("#spinner_footerfrm").show(500);
+    
+                    },
+                    success: function(data) {
+                        //  console.log(data); // data object will return the response when status code is 200
+                        if (data.msg == "success") {
+                            $('#footeralertdiv').html("Mail has been sent successfully");
+                            $('#footeralertdiv').show(500);
+    
+                            $("#footerfrm")[0].reset();
+    
+    
+                            setTimeout(function() {
+                                $("#spinner_footerfrm").hide(200)
+                                $("#footer_submit").prop('disabled', false);
+                                $('#footeralertdiv').html("");
+                                $('#footeralertdiv').hide();
+    
+                            }, 1000);
+    
+    
+                        }
+                    },
+                    error: function(xhr, textStatus, errorThrown) {
+                        //alert(textStatus + " | " + errorThrown);
+                        //console.log("error"); //otherwise error if status code is other than 200.
+                        alert("Unable to send email! Please try again later");
+                    }
+                });
+            });
+    
+    
+            $("#applynowfrm").on("submit", function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: "contact.php",
+                    //url: "contact.php", 
+                    type: "POST",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    processData: false,
+                    cache: false,
+                    beforeSend: function() {
+                        $("#applynow_submit").prop('disabled', true);
+                        $("#spinner_applynowfrm").show(500);
+                        $('#applynow_errordiv1').hide();
+                        $('#applynow_errordiv2').hide();
+                    },
+                    success: function(data) {
+                        //  console.log(data); // data object will return the response when status code is 200
+                        if (data.msg == "success") {
+                            $('#applynow_alertdiv').html("Mail has been sent successfully");
+                            $('#applynow_alertdiv').show();
+    
+                            $("#applynowfrm")[0].reset();
+    
+                            setTimeout(function() {
+                                $("#spinner_applynowfrm").hide(200)
+                                $("#applynow_submit").prop('disabled', false);
+                                $("#applynow_close").click();
+                                $('#applynow_alertdiv').html("");
+                            }, 1000);
+    
+                        } else {
+                            if (data.size == '1') {
+                                $('#applynow_errordiv1').html("File too large. File must be less than 2 megabytes.");
+                                $('#applynow_errordiv1').show();
+    
+                            }
+                            if (data.type == '1') {
+                                $('#applynow_errordiv2').html("Invalid file type. Only PDF, DOC types are accepted.");
+                                $('#applynow_errordiv2').show();
+    
+                            }
+                            $("#applynow_submit").prop('disabled', false);
+                        }
+    
+                    },
+                    error: function(xhr, textStatus, errorThrown) {
+                        //alert(textStatus + " | " + errorThrown);
+                        //console.log("error"); //otherwise error if status code is other than 200.
+                        alert("Unable to send email! Please try again later");
+                    }
+    
+                });
+            });
+    
+    
+    
+            $("#enqueryfrm").on("submit", function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: "contact.php",
+                    type: "POST",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    processData: false,
+                    cache: false,
+    
+                    beforeSend: function() {
+                        $("#enquery_submit").prop('disabled', true);
+                    },
+                    success: function(data) {
+                        //  console.log(data); // data object will return the response when status code is 200
+                        if (data.msg == "success") {
+                            $("#enqueryfrm")[0].reset();
+                            $("#enquerydiv").hide(500);
+                            $('#enquery_alertdiv').show(100);
+    
+                            setTimeout(function() {
+                                $('#enquiry_modal').modal('toggle'); //$('#enquiry_modal').hide();
+                                $("#enquerydiv").show();
+    
+    
+                                $("#enquery_submit").prop('disabled', false);
+                                $('#enquery_alertdiv').hide();
+                            }, 1500);
+    
+                        }
+                    },
+                    error: function(xhr, textStatus, errorThrown) {
+                        //alert(textStatus + " | " + errorThrown);
+                        //console.log("error"); //otherwise error if status code is other than 200.
+                        alert("Unable to send email! Please try again later");
+                    }
+                });
+            });
+        });
+    
+    </script>
+    
+    <script>
+        let sentences = document.querySelectorAll(".sentence");
+        let characterCount = 0;
+    
+        for (let i = 0; i < sentences.length; i++) {
+            let sentence = sentences[i];
+            let newContent = "";
+    
+            // go through all characters of the sentence
+            for (let j = 0; j < sentence.textContent.length; j++) {
+                let substring = sentence.textContent.substr(j, 1);
+                // if we have a character, wrap it
+                if (substring !== " ") {
+                    newContent += `<span style="--animation-order: ${characterCount};">${substring}</span>`;
+                } else {
+                    newContent += substring;
+                }
+                characterCount++;
+            }
+            sentence.innerHTML = newContent;
+        }
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+    
+        
+    
+    // Detect request animation frame
+    var scroll =
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    // IE Fallback, you can even fallback to onscroll
+    function (callback) {
+    window.setTimeout(callback, 1000 / 60);
+    };
+    var lastPosition = -1;
+    
+    // my Variables
+    var lastSection = false;
+    var replaceItemTop = -1;
+    var replaceItemBottom = -1;
+    var replaceItemHeight = -1;
+    
+    // The Scroll Function
+    function loop() {
+    var top = window.pageYOffset;
+    // my variables
+    
+    // my sections to calculate stuff
+    var sections = document.querySelectorAll(".section");
+    var replaceContainer = document.querySelectorAll(".js-replace");
+    var replaceItem = document.querySelectorAll(".js-replace__item");
+    
+    if (replaceItem.length > 0) {
+    // get top position of item from container, because image might not have loaded
+    replaceItemTop = parseInt(replaceContainer[0].getBoundingClientRect().top);
+    replaceItemHeight = replaceItem[0].offsetHeight;
+    replaceItemBottom = replaceItemTop + replaceItemHeight;
+    }
+    
+    var sectionTop = -1;
+    var sectionBottom = -1;
+    var currentSection = -1;
+    
+    // Fire when needed
+    if (lastPosition == window.pageYOffset) {
+    scroll(loop);
+    return false;
+    } else {
+    lastPosition = window.pageYOffset;
+    
+    // Your Function
+    Array.prototype.forEach.call(sections, function (el, i) {
+    sectionTop = parseInt(el.getBoundingClientRect().top);
+    sectionBottom = parseInt(el.getBoundingClientRect().bottom);
+    
+    // active section
+    if (sectionTop <= replaceItemBottom && sectionBottom > replaceItemTop) {
+    // check if current section has bg
+    currentSection = el.classList.contains("section--bg");
+    
+    // switch class depending on background image
+    if (currentSection) {
+     replaceContainer[0].classList.remove("js-replace--reverse");
+    } else {
+     replaceContainer[0].classList.add("js-replace--reverse");
+    }
+    }
+    // end active section
+    
+    // if active Section hits replace area
+    if (replaceItemTop < sectionTop && sectionTop <= replaceItemBottom) {
+    // animate only, if section background changed
+    if (currentSection != lastSection) {
+     document.documentElement.style.setProperty(
+       "--replace-offset",
+       (100 / replaceItemHeight) * parseInt(sectionTop - replaceItemTop) +
+         "%"
+     );
+    }
+    }
+    // end active section in replace area
+    
+    // if section above replace area
+    if (replaceItemTop >= sectionTop) {
+    // set offset to 0 if you scroll too fast
+    document.documentElement.style.setProperty("--replace-offset", 0 + "%");
+    // set last section to current section
+    lastSection = currentSection;
+    }
+    });
+    }
+    
+    // Recall the loop
+    scroll(loop);
+    }
+    
+    // Call the loop for the first time
+    loop();
+    
+    window.onresize = function (event) {
+    loop();
+    };
+    
+    
+    </script>
+    
+    
+    
+    <script>
+    
+    /*
+    *   Stripe WebGl Gradient Animation
+    *   ScrollObserver functionality to disable animation when not scrolled into view has been disabled and 
+    *   commented out for now.
+    */
+    
+    
+    //Converting colors to proper format
+    function normalizeColor(hexCode) {
+      return [(hexCode >> 16 & 255) / 255, (hexCode >> 8 & 255) / 255, (255 & hexCode) / 255]
+    } ["SCREEN", "LINEAR_LIGHT"].reduce((hexCode, t, n) => Object.assign(hexCode, {
+      [t]: n
+    }), {});
+    
+    //Essential functionality of WebGl
+    //t = width
+    //n = height
+    class MiniGl {
+      constructor(canvas, width, height, debug = false) {
+          const _miniGl = this,
+              debug_output = -1 !== document.location.search.toLowerCase().indexOf("debug=webgl");
+          _miniGl.canvas = canvas, _miniGl.gl = _miniGl.canvas.getContext("webgl", {
+              antialias: true
+          }), _miniGl.meshes = [];
+          const context = _miniGl.gl;
+          width && height && this.setSize(width, height), _miniGl.lastDebugMsg, _miniGl.debug = debug && debug_output ? function(e) {
+              const t = new Date;
+              t - _miniGl.lastDebugMsg > 1e3 && console.log("---"), console.log(t.toLocaleTimeString() + Array(Math.max(0, 32 - e.length)).join(" ") + e + ": ", ...Array.from(arguments).slice(1)), _miniGl.lastDebugMsg = t
+          } : () => {}, Object.defineProperties(_miniGl, {
+              Material: {
+                  enumerable: false,
+                  value: class {
+                      constructor(vertexShaders, fragments, uniforms = {}) {
+                          const material = this;
+                          function getShaderByType(type, source) {
+                              const shader = context.createShader(type);
+                              return context.shaderSource(shader, source), context.compileShader(shader), context.getShaderParameter(shader, context.COMPILE_STATUS) || console.error(context.getShaderInfoLog(shader)), _miniGl.debug("Material.compileShaderSource", {
+                                  source: source
+                              }), shader
+                          }
+                          function getUniformVariableDeclarations(uniforms, type) {
+                              return Object.entries(uniforms).map(([uniform, value]) => value.getDeclaration(uniform, type)).join("\n")
+                          }
+                          material.uniforms = uniforms, material.uniformInstances = [];
+    
+                          const prefix = "\n              precision highp float;\n            ";
+                          material.vertexSource = `\n              ${prefix}\n              attribute vec4 position;\n              attribute vec2 uv;\n              attribute vec2 uvNorm;\n              ${getUniformVariableDeclarations(_miniGl.commonUniforms,"vertex")}\n              ${getUniformVariableDeclarations(uniforms,"vertex")}\n              ${vertexShaders}\n            `,
+                          material.Source = `\n              ${prefix}\n              ${getUniformVariableDeclarations(_miniGl.commonUniforms,"fragment")}\n              ${getUniformVariableDeclarations(uniforms,"fragment")}\n              ${fragments}\n            `,
+                          material.vertexShader = getShaderByType(context.VERTEX_SHADER, material.vertexSource),
+                          material.fragmentShader = getShaderByType(context.FRAGMENT_SHADER, material.Source),
+                          material.program = context.createProgram(),
+                          context.attachShader(material.program, material.vertexShader),
+                          context.attachShader(material.program, material.fragmentShader),
+                          context.linkProgram(material.program),
+                          context.getProgramParameter(material.program, context.LINK_STATUS) || console.error(context.getProgramInfoLog(material.program)),
+                          context.useProgram(material.program),
+                          material.attachUniforms(void 0, _miniGl.commonUniforms),
+                          material.attachUniforms(void 0, material.uniforms)
+                      }
+                      //t = uniform
+                      attachUniforms(name, uniforms) {
+                          //n  = material
+                          const material = this;
+                          void 0 === name ? Object.entries(uniforms).forEach(([name, uniform]) => {
+                              material.attachUniforms(name, uniform)
+                          }) : "array" == uniforms.type ? uniforms.value.forEach((uniform, i) => material.attachUniforms(`${name}[${i}]`, uniform)) : "struct" == uniforms.type ? Object.entries(uniforms.value).forEach(([uniform, i]) => material.attachUniforms(`${name}.${uniform}`, i)) : (_miniGl.debug("Material.attachUniforms", {
+                              name: name,
+                              uniform: uniforms
+                          }), material.uniformInstances.push({
+                              uniform: uniforms,
+                              location: context.getUniformLocation(material.program, name)
+                          }))
+                      }
+                  }
+              },
+              Uniform: {
+                  enumerable: !1,
+                  value: class {
+                      constructor(e) {
+                          this.type = "float", Object.assign(this, e);
+                          this.typeFn = {
+                              float: "1f",
+                              int: "1i",
+                              vec2: "2fv",
+                              vec3: "3fv",
+                              vec4: "4fv",
+                              mat4: "Matrix4fv"
+                          } [this.type] || "1f", this.update()
+                      }
+                      update(value) {
+                          void 0 !== this.value && context[`uniform${this.typeFn}`](value, 0 === this.typeFn.indexOf("Matrix") ? this.transpose : this.value, 0 === this.typeFn.indexOf("Matrix") ? this.value : null)
+                      }
+                      //e - name
+                      //t - type
+                      //n - length
+                      getDeclaration(name, type, length) {
+                          const uniform = this;
+                          if (uniform.excludeFrom !== type) {
+                              if ("array" === uniform.type) return uniform.value[0].getDeclaration(name, type, uniform.value.length) + `\nconst int ${name}_length = ${uniform.value.length};`;
+                              if ("struct" === uniform.type) {
+                                  let name_no_prefix = name.replace("u_", "");
+                                  return name_no_prefix = 
+                                    name_no_prefix.charAt(0).toUpperCase() + 
+                                    name_no_prefix.slice(1), 
+                                    `uniform struct ${name_no_prefix} 
+                                    {\n` + 
+                                    Object.entries(uniform.value).map(([name, uniform]) => 
+                                    uniform.getDeclaration(name, type)
+                                    .replace(/^uniform/, ""))
+                                    .join("") 
+                                    + `\n} ${name}${length>0?`[${length}]`:""};`
+                              }
+                              return `uniform ${uniform.type} ${name}${length>0?`[${length}]`:""};`
+                          }
+                      }
+                  }
+              },
+              PlaneGeometry: {
+                  enumerable: !1,
+                  value: class {
+                      constructor(width, height, n, i, orientation) {
+                        context.createBuffer(), this.attributes = {
+                              position: new _miniGl.Attribute({
+                                  target: context.ARRAY_BUFFER,
+                                  size: 3
+                              }),
+                              uv: new _miniGl.Attribute({
+                                  target: context.ARRAY_BUFFER,
+                                  size: 2
+                              }),
+                              uvNorm: new _miniGl.Attribute({
+                                  target: context.ARRAY_BUFFER,
+                                  size: 2
+                              }),
+                              index: new _miniGl.Attribute({
+                                  target: context.ELEMENT_ARRAY_BUFFER,
+                                  size: 3,
+                                  type: context.UNSIGNED_SHORT
+                              })
+                          }, this.setTopology(n, i), this.setSize(width, height, orientation)
+                      }
+                      setTopology(e = 1, t = 1) {
+                          const n = this;
+                          n.xSegCount = e, n.ySegCount = t, n.vertexCount = (n.xSegCount + 1) * (n.ySegCount + 1), n.quadCount = n.xSegCount * n.ySegCount * 2, n.attributes.uv.values = new Float32Array(2 * n.vertexCount), n.attributes.uvNorm.values = new Float32Array(2 * n.vertexCount), n.attributes.index.values = new Uint16Array(3 * n.quadCount);
+                          for (let e = 0; e <= n.ySegCount; e++)
+                              for (let t = 0; t <= n.xSegCount; t++) {
+                                  const i = e * (n.xSegCount + 1) + t;
+                                  if (n.attributes.uv.values[2 * i] = t / n.xSegCount, n.attributes.uv.values[2 * i + 1] = 1 - e / n.ySegCount, n.attributes.uvNorm.values[2 * i] = t / n.xSegCount * 2 - 1, n.attributes.uvNorm.values[2 * i + 1] = 1 - e / n.ySegCount * 2, t < n.xSegCount && e < n.ySegCount) {
+                                      const s = e * n.xSegCount + t;
+                                      n.attributes.index.values[6 * s] = i, n.attributes.index.values[6 * s + 1] = i + 1 + n.xSegCount, n.attributes.index.values[6 * s + 2] = i + 1, n.attributes.index.values[6 * s + 3] = i + 1, n.attributes.index.values[6 * s + 4] = i + 1 + n.xSegCount, n.attributes.index.values[6 * s + 5] = i + 2 + n.xSegCount
+                                  }
+                              }
+                          n.attributes.uv.update(), n.attributes.uvNorm.update(), n.attributes.index.update(), _miniGl.debug("Geometry.setTopology", {
+                              uv: n.attributes.uv,
+                              uvNorm: n.attributes.uvNorm,
+                              index: n.attributes.index
+                          })
+                      }
+                      setSize(width = 1, height = 1, orientation = "xz") {
+                          const geometry = this;
+                          geometry.width = width,
+                          geometry.height = height,
+                          geometry.orientation = orientation,
+                          geometry.attributes.position.values && geometry.attributes.position.values.length === 3 * geometry.vertexCount 
+                          || (geometry.attributes.position.values = new Float32Array(3 * geometry.vertexCount));
+                          const o = width / -2,
+                              r = height / -2,
+                              segment_width = width / geometry.xSegCount,
+                              segment_height = height / geometry.ySegCount;
+                          for (let yIndex= 0; yIndex <= geometry.ySegCount; yIndex++) {
+                              const t = r + yIndex * segment_height;
+                              for (let xIndex = 0; xIndex <= geometry.xSegCount; xIndex++) {
+                                  const r = o + xIndex * segment_width,
+                                      l = yIndex * (geometry.xSegCount + 1) + xIndex;
+                                  geometry.attributes.position.values[3 * l + "xyz".indexOf(orientation[0])] = r, 
+                                  geometry.attributes.position.values[3 * l + "xyz".indexOf(orientation[1])] = -t
+                              }
+                          }
+                          geometry.attributes.position.update(), _miniGl.debug("Geometry.setSize", {
+                              position: geometry.attributes.position
+                          })
+                      }
+                  }
+              },
+              Mesh: {
+                  enumerable: !1,
+                  value: class {
+                      constructor(geometry, material) {
+                          const mesh = this;
+                          mesh.geometry = geometry, mesh.material = material, mesh.wireframe = !1, mesh.attributeInstances = [], Object.entries(mesh.geometry.attributes).forEach(([e, attribute]) => {
+                              mesh.attributeInstances.push({
+                                  attribute: attribute,
+                                  location: attribute.attach(e, mesh.material.program)
+                              })
+                          }), _miniGl.meshes.push(mesh), _miniGl.debug("Mesh.constructor", {
+                              mesh: mesh
+                          })
+                      }
+                      draw() {
+                        context.useProgram(this.material.program), this.material.uniformInstances.forEach(({
+                              uniform: e,
+                              location: t
+                          }) => e.update(t)), this.attributeInstances.forEach(({
+                              attribute: e,
+                              location: t
+                          }) => e.use(t)), context.drawElements(this.wireframe ? context.LINES : context.TRIANGLES, this.geometry.attributes.index.values.length, context.UNSIGNED_SHORT, 0)
+                      }
+                      remove() {
+                          _miniGl.meshes = _miniGl.meshes.filter(e => e != this)
+                      }
+                  }
+              },
+              Attribute: {
+                  enumerable: !1,
+                  value: class {
+                      constructor(e) {
+                          this.type = context.FLOAT, this.normalized = !1, this.buffer = context.createBuffer(), Object.assign(this, e), this.update()
+                      }
+                      update() {
+                          void 0 !== this.values && (context.bindBuffer(this.target, this.buffer), context.bufferData(this.target, this.values, context.STATIC_DRAW))
+                      }
+                      attach(e, t) {
+                          const n = context.getAttribLocation(t, e);
+                          return this.target === context.ARRAY_BUFFER && (context.enableVertexAttribArray(n), context.vertexAttribPointer(n, this.size, this.type, this.normalized, 0, 0)), n
+                      }
+                      use(e) {
+                        context.bindBuffer(this.target, this.buffer), this.target === context.ARRAY_BUFFER && (context.enableVertexAttribArray(e), context.vertexAttribPointer(e, this.size, this.type, this.normalized, 0, 0))
+                      }
+                  }
+              }
+          });
+          const a = [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1];
+          _miniGl.commonUniforms = {
+              projectionMatrix: new _miniGl.Uniform({
+                  type: "mat4",
+                  value: a
+              }),
+              modelViewMatrix: new _miniGl.Uniform({
+                  type: "mat4",
+                  value: a
+              }),
+              resolution: new _miniGl.Uniform({
+                  type: "vec2",
+                  value: [1, 1]
+              }),
+              aspectRatio: new _miniGl.Uniform({
+                  type: "float",
+                  value: 1
+              })
+          }
+      }
+      setSize(e = 640, t = 480) {
+          this.width = e, this.height = t, this.canvas.width = e, this.canvas.height = t, this.gl.viewport(0, 0, e, t), this.commonUniforms.resolution.value = [e, t], this.commonUniforms.aspectRatio.value = e / t, this.debug("MiniGL.setSize", {
+              width: e,
+              height: t
+          })
+      }
+      //left, right, top, bottom, near, far
+      setOrthographicCamera(e = 0, t = 0, n = 0, i = -2e3, s = 2e3) {
+          this.commonUniforms.projectionMatrix.value = [2 / this.width, 0, 0, 0, 0, 2 / this.height, 0, 0, 0, 0, 2 / (i - s), 0, e, t, n, 1], this.debug("setOrthographicCamera", this.commonUniforms.projectionMatrix.value)
+      }
+      render() {
+          this.gl.clearColor(0, 0, 0, 0), this.gl.clearDepth(1), this.meshes.forEach(e => e.draw())
+      }
+    }
+    
+    
+    
+    //Sets initial properties
+    function e(object, propertyName, val) {
+      return propertyName in object ? Object.defineProperty(object, propertyName, {
+          value: val,
+          enumerable: !0,
+          configurable: !0,
+          writable: !0
+      }) : object[propertyName] = val, object
+    }
+    
+    //Gradient object
+    class Gradient {
+      constructor(...t) {
+          e(this, "el", void 0), e(this, "cssVarRetries", 0), e(this, "maxCssVarRetries", 200), e(this, "angle", 0), e(this, "isLoadedClass", !1), e(this, "isScrolling", !1), /*e(this, "isStatic", o.disableAmbientAnimations()),*/ e(this, "scrollingTimeout", void 0), e(this, "scrollingRefreshDelay", 200), e(this, "isIntersecting", !1), e(this, "shaderFiles", void 0), e(this, "vertexShader", void 0), e(this, "sectionColors", void 0), e(this, "computedCanvasStyle", void 0), e(this, "conf", void 0), e(this, "uniforms", void 0), e(this, "t", 1253106), e(this, "last", 0), e(this, "width", void 0), e(this, "minWidth", 1111), e(this, "height", 600), e(this, "xSegCount", void 0), e(this, "ySegCount", void 0), e(this, "mesh", void 0), e(this, "material", void 0), e(this, "geometry", void 0), e(this, "minigl", void 0), e(this, "scrollObserver", void 0), e(this, "amp", 320), e(this, "seed", 5), e(this, "freqX", 14e-5), e(this, "freqY", 29e-5), e(this, "freqDelta", 1e-5), e(this, "activeColors", [1, 1, 1, 1]), e(this, "isMetaKey", !1), e(this, "isGradientLegendVisible", !1), e(this, "isMouseDown", !1), e(this, "handleScroll", () => {
+              clearTimeout(this.scrollingTimeout), this.scrollingTimeout = setTimeout(this.handleScrollEnd, this.scrollingRefreshDelay), this.isGradientLegendVisible && this.hideGradientLegend(), this.conf.playing && (this.isScrolling = !0, this.pause())
+          }), e(this, "handleScrollEnd", () => {
+              this.isScrolling = !1, this.isIntersecting && this.play()
+          }), e(this, "resize", () => {
+              this.width = window.innerWidth, this.minigl.setSize(this.width, this.height), this.minigl.setOrthographicCamera(), this.xSegCount = Math.ceil(this.width * this.conf.density[0]), this.ySegCount = Math.ceil(this.height * this.conf.density[1]), this.mesh.geometry.setTopology(this.xSegCount, this.ySegCount), this.mesh.geometry.setSize(this.width, this.height), this.mesh.material.uniforms.u_shadow_power.value = this.width < 600 ? 5 : 6
+          }), e(this, "handleMouseDown", e => {
+              this.isGradientLegendVisible && (this.isMetaKey = e.metaKey, this.isMouseDown = !0, !1 === this.conf.playing && requestAnimationFrame(this.animate))
+          }), e(this, "handleMouseUp", () => {
+              this.isMouseDown = !1
+          }), e(this, "animate", e => {
+              if (!this.shouldSkipFrame(e) || this.isMouseDown) {
+                  if (this.t += Math.min(e - this.last, 1e3 / 15), this.last = e, this.isMouseDown) {
+                      let e = 160;
+                      this.isMetaKey && (e = -160), this.t += e
+                  }
+                  this.mesh.material.uniforms.u_time.value = this.t, this.minigl.render()
+    
+              }
+              if (0 !== this.last && this.isStatic) return this.minigl.render(), void this.disconnect();
+              (/*this.isIntersecting && */this.conf.playing || this.isMouseDown) && requestAnimationFrame(this.animate)
+          }), e(this, "addIsLoadedClass", () => {
+              /*this.isIntersecting && */!this.isLoadedClass && (this.isLoadedClass = !0, this.el.classList.add("isLoaded"), setTimeout(() => {
+                  this.el.parentElement.classList.add("isLoaded")
+              }, 3e3))
+          }), e(this, "pause", () => {
+              this.conf.playing = false
+          }), e(this, "play", () => {
+              requestAnimationFrame(this.animate), this.conf.playing = true
+          }), e(this,"initGradient", (selector) => {
+            this.el = document.querySelector(selector);
+            this.connect();
+            return this;
+          })
+      }
+      async connect() {
+          this.shaderFiles = {
+              vertex: "varying vec3 v_color;\n\nvoid main() {\n  float time = u_time * u_global.noiseSpeed;\n\n  vec2 noiseCoord = resolution * uvNorm * u_global.noiseFreq;\n\n  vec2 st = 1. - uvNorm.xy;\n\n  //\n  // Tilting the plane\n  //\n\n  // Front-to-back tilt\n  float tilt = resolution.y / 2.0 * uvNorm.y;\n\n  // Left-to-right angle\n  float incline = resolution.x * uvNorm.x / 2.0 * u_vertDeform.incline;\n\n  // Up-down shift to offset incline\n  float offset = resolution.x / 2.0 * u_vertDeform.incline * mix(u_vertDeform.offsetBottom, u_vertDeform.offsetTop, uv.y);\n\n  //\n  // Vertex noise\n  //\n\n  float noise = snoise(vec3(\n    noiseCoord.x * u_vertDeform.noiseFreq.x + time * u_vertDeform.noiseFlow,\n    noiseCoord.y * u_vertDeform.noiseFreq.y,\n    time * u_vertDeform.noiseSpeed + u_vertDeform.noiseSeed\n  )) * u_vertDeform.noiseAmp;\n\n  // Fade noise to zero at edges\n  noise *= 1.0 - pow(abs(uvNorm.y), 2.0);\n\n  // Clamp to 0\n  noise = max(0.0, noise);\n\n  vec3 pos = vec3(\n    position.x,\n    position.y + tilt + incline + noise - offset,\n    position.z\n  );\n\n  //\n  // Vertex color, to be passed to fragment shader\n  //\n\n  if (u_active_colors[0] == 1.) {\n    v_color = u_baseColor;\n  }\n\n  for (int i = 0; i < u_waveLayers_length; i++) {\n    if (u_active_colors[i + 1] == 1.) {\n      WaveLayers layer = u_waveLayers[i];\n\n      float noise = smoothstep(\n        layer.noiseFloor,\n        layer.noiseCeil,\n        snoise(vec3(\n          noiseCoord.x * layer.noiseFreq.x + time * layer.noiseFlow,\n          noiseCoord.y * layer.noiseFreq.y,\n          time * layer.noiseSpeed + layer.noiseSeed\n        )) / 2.0 + 0.5\n      );\n\n      v_color = blendNormal(v_color, layer.color, pow(noise, 4.));\n    }\n  }\n\n  //\n  // Finish\n  //\n\n  gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);\n}",
+              noise: "//\n// Description : Array and textureless GLSL 2D/3D/4D simplex\n//               noise functions.\n//      Author : Ian McEwan, Ashima Arts.\n//  Maintainer : stegu\n//     Lastmod : 20110822 (ijm)\n//     License : Copyright (C) 2011 Ashima Arts. All rights reserved.\n//               Distributed under the MIT License. See LICENSE file.\n//               https://github.com/ashima/webgl-noise\n//               https://github.com/stegu/webgl-noise\n//\n\nvec3 mod289(vec3 x) {\n  return x - floor(x * (1.0 / 289.0)) * 289.0;\n}\n\nvec4 mod289(vec4 x) {\n  return x - floor(x * (1.0 / 289.0)) * 289.0;\n}\n\nvec4 permute(vec4 x) {\n    return mod289(((x*34.0)+1.0)*x);\n}\n\nvec4 taylorInvSqrt(vec4 r)\n{\n  return 1.79284291400159 - 0.85373472095314 * r;\n}\n\nfloat snoise(vec3 v)\n{\n  const vec2  C = vec2(1.0/6.0, 1.0/3.0) ;\n  const vec4  D = vec4(0.0, 0.5, 1.0, 2.0);\n\n// First corner\n  vec3 i  = floor(v + dot(v, C.yyy) );\n  vec3 x0 =   v - i + dot(i, C.xxx) ;\n\n// Other corners\n  vec3 g = step(x0.yzx, x0.xyz);\n  vec3 l = 1.0 - g;\n  vec3 i1 = min( g.xyz, l.zxy );\n  vec3 i2 = max( g.xyz, l.zxy );\n\n  //   x0 = x0 - 0.0 + 0.0 * C.xxx;\n  //   x1 = x0 - i1  + 1.0 * C.xxx;\n  //   x2 = x0 - i2  + 2.0 * C.xxx;\n  //   x3 = x0 - 1.0 + 3.0 * C.xxx;\n  vec3 x1 = x0 - i1 + C.xxx;\n  vec3 x2 = x0 - i2 + C.yyy; // 2.0*C.x = 1/3 = C.y\n  vec3 x3 = x0 - D.yyy;      // -1.0+3.0*C.x = -0.5 = -D.y\n\n// Permutations\n  i = mod289(i);\n  vec4 p = permute( permute( permute(\n            i.z + vec4(0.0, i1.z, i2.z, 1.0 ))\n          + i.y + vec4(0.0, i1.y, i2.y, 1.0 ))\n          + i.x + vec4(0.0, i1.x, i2.x, 1.0 ));\n\n// Gradients: 7x7 points over a square, mapped onto an octahedron.\n// The ring size 17*17 = 289 is close to a multiple of 49 (49*6 = 294)\n  float n_ = 0.142857142857; // 1.0/7.0\n  vec3  ns = n_ * D.wyz - D.xzx;\n\n  vec4 j = p - 49.0 * floor(p * ns.z * ns.z);  //  mod(p,7*7)\n\n  vec4 x_ = floor(j * ns.z);\n  vec4 y_ = floor(j - 7.0 * x_ );    // mod(j,N)\n\n  vec4 x = x_ *ns.x + ns.yyyy;\n  vec4 y = y_ *ns.x + ns.yyyy;\n  vec4 h = 1.0 - abs(x) - abs(y);\n\n  vec4 b0 = vec4( x.xy, y.xy );\n  vec4 b1 = vec4( x.zw, y.zw );\n\n  //vec4 s0 = vec4(lessThan(b0,0.0))*2.0 - 1.0;\n  //vec4 s1 = vec4(lessThan(b1,0.0))*2.0 - 1.0;\n  vec4 s0 = floor(b0)*2.0 + 1.0;\n  vec4 s1 = floor(b1)*2.0 + 1.0;\n  vec4 sh = -step(h, vec4(0.0));\n\n  vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy ;\n  vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww ;\n\n  vec3 p0 = vec3(a0.xy,h.x);\n  vec3 p1 = vec3(a0.zw,h.y);\n  vec3 p2 = vec3(a1.xy,h.z);\n  vec3 p3 = vec3(a1.zw,h.w);\n\n//Normalise gradients\n  vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));\n  p0 *= norm.x;\n  p1 *= norm.y;\n  p2 *= norm.z;\n  p3 *= norm.w;\n\n// Mix final noise value\n  vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);\n  m = m * m;\n  return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1),\n                                dot(p2,x2), dot(p3,x3) ) );\n}",
+              blend: "//\n// https://github.com/jamieowen/glsl-blend\n//\n\n// Normal\n\nvec3 blendNormal(vec3 base, vec3 blend) {\n\treturn blend;\n}\n\nvec3 blendNormal(vec3 base, vec3 blend, float opacity) {\n\treturn (blendNormal(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Screen\n\nfloat blendScreen(float base, float blend) {\n\treturn 1.0-((1.0-base)*(1.0-blend));\n}\n\nvec3 blendScreen(vec3 base, vec3 blend) {\n\treturn vec3(blendScreen(base.r,blend.r),blendScreen(base.g,blend.g),blendScreen(base.b,blend.b));\n}\n\nvec3 blendScreen(vec3 base, vec3 blend, float opacity) {\n\treturn (blendScreen(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Multiply\n\nvec3 blendMultiply(vec3 base, vec3 blend) {\n\treturn base*blend;\n}\n\nvec3 blendMultiply(vec3 base, vec3 blend, float opacity) {\n\treturn (blendMultiply(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Overlay\n\nfloat blendOverlay(float base, float blend) {\n\treturn base<0.5?(2.0*base*blend):(1.0-2.0*(1.0-base)*(1.0-blend));\n}\n\nvec3 blendOverlay(vec3 base, vec3 blend) {\n\treturn vec3(blendOverlay(base.r,blend.r),blendOverlay(base.g,blend.g),blendOverlay(base.b,blend.b));\n}\n\nvec3 blendOverlay(vec3 base, vec3 blend, float opacity) {\n\treturn (blendOverlay(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Hard light\n\nvec3 blendHardLight(vec3 base, vec3 blend) {\n\treturn blendOverlay(blend,base);\n}\n\nvec3 blendHardLight(vec3 base, vec3 blend, float opacity) {\n\treturn (blendHardLight(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Soft light\n\nfloat blendSoftLight(float base, float blend) {\n\treturn (blend<0.5)?(2.0*base*blend+base*base*(1.0-2.0*blend)):(sqrt(base)*(2.0*blend-1.0)+2.0*base*(1.0-blend));\n}\n\nvec3 blendSoftLight(vec3 base, vec3 blend) {\n\treturn vec3(blendSoftLight(base.r,blend.r),blendSoftLight(base.g,blend.g),blendSoftLight(base.b,blend.b));\n}\n\nvec3 blendSoftLight(vec3 base, vec3 blend, float opacity) {\n\treturn (blendSoftLight(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Color dodge\n\nfloat blendColorDodge(float base, float blend) {\n\treturn (blend==1.0)?blend:min(base/(1.0-blend),1.0);\n}\n\nvec3 blendColorDodge(vec3 base, vec3 blend) {\n\treturn vec3(blendColorDodge(base.r,blend.r),blendColorDodge(base.g,blend.g),blendColorDodge(base.b,blend.b));\n}\n\nvec3 blendColorDodge(vec3 base, vec3 blend, float opacity) {\n\treturn (blendColorDodge(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Color burn\n\nfloat blendColorBurn(float base, float blend) {\n\treturn (blend==0.0)?blend:max((1.0-((1.0-base)/blend)),0.0);\n}\n\nvec3 blendColorBurn(vec3 base, vec3 blend) {\n\treturn vec3(blendColorBurn(base.r,blend.r),blendColorBurn(base.g,blend.g),blendColorBurn(base.b,blend.b));\n}\n\nvec3 blendColorBurn(vec3 base, vec3 blend, float opacity) {\n\treturn (blendColorBurn(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Vivid Light\n\nfloat blendVividLight(float base, float blend) {\n\treturn (blend<0.5)?blendColorBurn(base,(2.0*blend)):blendColorDodge(base,(2.0*(blend-0.5)));\n}\n\nvec3 blendVividLight(vec3 base, vec3 blend) {\n\treturn vec3(blendVividLight(base.r,blend.r),blendVividLight(base.g,blend.g),blendVividLight(base.b,blend.b));\n}\n\nvec3 blendVividLight(vec3 base, vec3 blend, float opacity) {\n\treturn (blendVividLight(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Lighten\n\nfloat blendLighten(float base, float blend) {\n\treturn max(blend,base);\n}\n\nvec3 blendLighten(vec3 base, vec3 blend) {\n\treturn vec3(blendLighten(base.r,blend.r),blendLighten(base.g,blend.g),blendLighten(base.b,blend.b));\n}\n\nvec3 blendLighten(vec3 base, vec3 blend, float opacity) {\n\treturn (blendLighten(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Linear burn\n\nfloat blendLinearBurn(float base, float blend) {\n\t// Note : Same implementation as BlendSubtractf\n\treturn max(base+blend-1.0,0.0);\n}\n\nvec3 blendLinearBurn(vec3 base, vec3 blend) {\n\t// Note : Same implementation as BlendSubtract\n\treturn max(base+blend-vec3(1.0),vec3(0.0));\n}\n\nvec3 blendLinearBurn(vec3 base, vec3 blend, float opacity) {\n\treturn (blendLinearBurn(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Linear dodge\n\nfloat blendLinearDodge(float base, float blend) {\n\t// Note : Same implementation as BlendAddf\n\treturn min(base+blend,1.0);\n}\n\nvec3 blendLinearDodge(vec3 base, vec3 blend) {\n\t// Note : Same implementation as BlendAdd\n\treturn min(base+blend,vec3(1.0));\n}\n\nvec3 blendLinearDodge(vec3 base, vec3 blend, float opacity) {\n\treturn (blendLinearDodge(base, blend) * opacity + base * (1.0 - opacity));\n}\n\n// Linear light\n\nfloat blendLinearLight(float base, float blend) {\n\treturn blend<0.5?blendLinearBurn(base,(2.0*blend)):blendLinearDodge(base,(2.0*(blend-0.5)));\n}\n\nvec3 blendLinearLight(vec3 base, vec3 blend) {\n\treturn vec3(blendLinearLight(base.r,blend.r),blendLinearLight(base.g,blend.g),blendLinearLight(base.b,blend.b));\n}\n\nvec3 blendLinearLight(vec3 base, vec3 blend, float opacity) {\n\treturn (blendLinearLight(base, blend) * opacity + base * (1.0 - opacity));\n}",
+              fragment: "varying vec3 v_color;\n\nvoid main() {\n  vec3 color = v_color;\n  if (u_darken_top == 1.0) {\n    vec2 st = gl_FragCoord.xy/resolution.xy;\n    color.g -= pow(st.y + sin(-12.0) * st.x, u_shadow_power) * 0.4;\n  }\n  gl_FragColor = vec4(color, 1.0);\n}"
+          },
+          this.conf = {
+              presetName: "",
+              wireframe: false,
+              density: [.06, .16],
+              zoom: 1,
+              rotation: 0,
+              playing: true
+          }, 
+          document.querySelectorAll("canvas").length < 1 ? console.log("DID NOT LOAD HERO STRIPE CANVAS") : (
+            
+            this.minigl = new MiniGl(this.el, null, null, !0), 
+            requestAnimationFrame(() => {
+                this.el && (this.computedCanvasStyle = getComputedStyle(this.el), this.waitForCssVars())
+            })
+            /*
+            this.scrollObserver = await s.create(.1, !1),
+            this.scrollObserver.observe(this.el),
+            this.scrollObserver.onSeparate(() => {
+                window.removeEventListener("scroll", this.handleScroll), window.removeEventListener("mousedown", this.handleMouseDown), window.removeEventListener("mouseup", this.handleMouseUp), window.removeEventListener("keydown", this.handleKeyDown), this.isIntersecting = !1, this.conf.playing && this.pause()
+            }), 
+            this.scrollObserver.onIntersect(() => {
+                window.addEventListener("scroll", this.handleScroll), window.addEventListener("mousedown", this.handleMouseDown), window.addEventListener("mouseup", this.handleMouseUp), window.addEventListener("keydown", this.handleKeyDown), this.isIntersecting = !0, this.addIsLoadedClass(), this.play()
+            })*/
+    
+          )
+      }
+      disconnect() {
+          this.scrollObserver && (window.removeEventListener("scroll", this.handleScroll), window.removeEventListener("mousedown", this.handleMouseDown), window.removeEventListener("mouseup", this.handleMouseUp), window.removeEventListener("keydown", this.handleKeyDown), this.scrollObserver.disconnect()), window.removeEventListener("resize", this.resize)
+      }
+      initMaterial() {
+          this.uniforms = {
+              u_time: new this.minigl.Uniform({
+                  value: 0
+              }),
+              u_shadow_power: new this.minigl.Uniform({
+                  value: 5
+              }),
+              u_darken_top: new this.minigl.Uniform({
+                  value: "" === this.el.dataset.jsDarkenTop ? 1 : 0
+              }),
+              u_active_colors: new this.minigl.Uniform({
+                  value: this.activeColors,
+                  type: "vec4"
+              }),
+              u_global: new this.minigl.Uniform({
+                  value: {
+                      noiseFreq: new this.minigl.Uniform({
+                          value: [this.freqX, this.freqY],
+                          type: "vec2"
+                      }),
+                      noiseSpeed: new this.minigl.Uniform({
+                          value: 5e-6
+                      })
+                  },
+                  type: "struct"
+              }),
+              u_vertDeform: new this.minigl.Uniform({
+                  value: {
+                      incline: new this.minigl.Uniform({
+                          value: Math.sin(this.angle) / Math.cos(this.angle)
+                      }),
+                      offsetTop: new this.minigl.Uniform({
+                          value: -.5
+                      }),
+                      offsetBottom: new this.minigl.Uniform({
+                          value: -.5
+                      }),
+                      noiseFreq: new this.minigl.Uniform({
+                          value: [3, 4],
+                          type: "vec2"
+                      }),
+                      noiseAmp: new this.minigl.Uniform({
+                          value: this.amp
+                      }),
+                      noiseSpeed: new this.minigl.Uniform({
+                          value: 10
+                      }),
+                      noiseFlow: new this.minigl.Uniform({
+                          value: 3
+                      }),
+                      noiseSeed: new this.minigl.Uniform({
+                          value: this.seed
+                      })
+                  },
+                  type: "struct",
+                  excludeFrom: "fragment"
+              }),
+              u_baseColor: new this.minigl.Uniform({
+                  value: this.sectionColors[0],
+                  type: "vec3",
+                  excludeFrom: "fragment"
+              }),
+              u_waveLayers: new this.minigl.Uniform({
+                  value: [],
+                  excludeFrom: "fragment",
+                  type: "array"
+              })
+          };
+          for (let e = 1; e < this.sectionColors.length; e += 1) this.uniforms.u_waveLayers.value.push(new this.minigl.Uniform({
+              value: {
+                  color: new this.minigl.Uniform({
+                      value: this.sectionColors[e],
+                      type: "vec3"
+                  }),
+                  noiseFreq: new this.minigl.Uniform({
+                      value: [2 + e / this.sectionColors.length, 3 + e / this.sectionColors.length],
+                      type: "vec2"
+                  }),
+                  noiseSpeed: new this.minigl.Uniform({
+                      value: 11 + .3 * e
+                  }),
+                  noiseFlow: new this.minigl.Uniform({
+                      value: 6.5 + .3 * e
+                  }),
+                  noiseSeed: new this.minigl.Uniform({
+                      value: this.seed + 10 * e
+                  }),
+                  noiseFloor: new this.minigl.Uniform({
+                      value: .1
+                  }),
+                  noiseCeil: new this.minigl.Uniform({
+                      value: .63 + .07 * e
+                  })
+              },
+              type: "struct"
+          }));
+          return this.vertexShader = [this.shaderFiles.noise, this.shaderFiles.blend, this.shaderFiles.vertex].join("\n\n"), new this.minigl.Material(this.vertexShader, this.shaderFiles.fragment, this.uniforms)
+      }
+      initMesh() {
+          this.material = this.initMaterial(), this.geometry = new this.minigl.PlaneGeometry, this.mesh = new this.minigl.Mesh(this.geometry, this.material)
+      }
+      shouldSkipFrame(e) {
+          return !!window.document.hidden || (!this.conf.playing || (parseInt(e, 10) % 2 == 0 || void 0))
+      }
+      updateFrequency(e) {
+          this.freqX += e, this.freqY += e
+      }
+      toggleColor(index) {
+          this.activeColors[index] = 0 === this.activeColors[index] ? 1 : 0
+      }
+      showGradientLegend() {
+          this.width > this.minWidth && (this.isGradientLegendVisible = !0, document.body.classList.add("isGradientLegendVisible"))
+      }
+      hideGradientLegend() {
+          this.isGradientLegendVisible = !1, document.body.classList.remove("isGradientLegendVisible")
+      }
+      init() {
+          this.initGradientColors(), this.initMesh(), this.resize(), requestAnimationFrame(this.animate), window.addEventListener("resize", this.resize)
+      }
+      /*
+      * Waiting for the css variables to become available, usually on page load before we can continue.
+      * Using default colors assigned below if no variables have been found after maxCssVarRetries
+      */
+      waitForCssVars() {
+          if (this.computedCanvasStyle && -1 !== this.computedCanvasStyle.getPropertyValue("--gradient-color-1").indexOf("#")) this.init(), this.addIsLoadedClass();
+          else {
+              if (this.cssVarRetries += 1, this.cssVarRetries > this.maxCssVarRetries) {
+                  return this.sectionColors = [16711680, 16711680, 16711935, 65280, 255],void this.init();
+              }
+              requestAnimationFrame(() => this.waitForCssVars())
+          }
+      }
+      /*
+      * Initializes the four section colors by retrieving them from css variables.
+      */
+      initGradientColors() {
+          this.sectionColors = ["--gradient-color-1", "--gradient-color-2", "--gradient-color-3", "--gradient-color-4"].map(cssPropertyName => {
+              let hex = this.computedCanvasStyle.getPropertyValue(cssPropertyName).trim();
+              //Check if shorthand hex value was used and double the length so the conversion in normalizeColor will work.
+              if (4 === hex.length) {
+                  const hexTemp = hex.substr(1).split("").map(hexTemp => hexTemp + hexTemp).join("");
+                  hex = `#${hexTemp}`
+              }
+              return hex && `0x${hex.substr(1)}`
+          }).filter(Boolean).map(normalizeColor)
+      }
+    }
+    
+    
+    
+    
+    /*
+    *Finally initializing the Gradient class, assigning a canvas to it and calling Gradient.connect() which initializes everything,
+    * Use Gradient.pause() and Gradient.play() for controls.
+    *
+    * Here are some default property values you can change anytime:
+    * Amplitude:    Gradient.amp = 0
+    * Colors:       Gradient.sectionColors (if you change colors, use normalizeColor(#hexValue)) before you assign it.
+    *
+    *
+    * Useful functions
+    * Gradient.toggleColor(index)
+    * Gradient.updateFrequency(freq)
+    */
+    var gradient = new Gradient();
+        gradient.initGradient("#gradient-canvas");
+        
+    </script>
+    
+
+
+
+</body>
+
+</html>
