@@ -173,10 +173,18 @@
 
 .menu__item--1 .menu__item-inner {
     background: #15171b;
+    
 }
 
 .menu__item--2 .menu__item-inner {
     background: #1d2027;
+    
+}
+
+#element_it , #element_bpo , #element_market
+{
+    display: none;
+    transition:cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .menu__item--3 .menu__item-inner {
@@ -190,6 +198,8 @@
 .menu__item--5 .menu__item-inner {
     background: #0f1013;
 }
+
+
 
 
 .label {
@@ -353,15 +363,15 @@
     }
 
     .menu__item--3 {
-        grid-area: item3;
+        grid-area: item2;
     }
 
     .menu__item--4 {
-        grid-area: item4;
+        grid-area: item2;
     }
 
     .menu__item--5 {
-        grid-area: item5;
+        grid-area: item2;
     }
 
     .menu__item--4,

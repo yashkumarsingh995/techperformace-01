@@ -8,6 +8,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+   
     <link rel="stylesheet" href="css/innerpage.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/custom_particals.css" />
@@ -181,17 +182,18 @@
             </div>
         </div>
     </section>
-    <nav class="menu">
-        <div class="menu_wrapper">
-            <div class="menu__item menu__item--1" data-direction="bt">
-                <div class="menu__item-inner">
+    <nav class="menu" >
+        <div class="menu_wrapper" >
+            <div class="menu__item menu__item--1" data-direction="bt" id="mainmenu_container" >
+                <div class="menu__item-inner" >
                     <div class="mainmenu">
-                        <a href="#" class="mainmenu__item">It Services</a>
-                        <a href="#" class="mainmenu__item">Bpo Services</a>
-                        <a href="#" class="mainmenu__item">Marketing Services</a>
-                        <a href="#" class="mainmenu__item">Cad Services</a>
-                        <a href="#" class="mainmenu__item">Packages</a>
+                        <a href="#" class="mainmenu__item" id="mainmenu_it">It Services</a>
+                        <a href="#" class="mainmenu__item" id="mainmenu_bpo">Bpo Services</a>
+                        <a href="#" class="mainmenu__item" id="mainmenu_mar">Marketing Services</a>
+                        <a href="#" class="mainmenu__item" id="mainmenu__email">Email Services</a>
+                        <a href="#" class="mainmenu__item" id="mainmenu__package">Packages</a>
                     </div>
+                    
                     <p class="label label--topleft label--vert-mirror">Services We Offered</p>
                     <div class="menu_address_sec d-flex align-items-center">
                         <div class="menu_mail_sec">
@@ -222,7 +224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu__item menu__item--2" data-direction="lr">
+            <div class="menu__item menu__item--2" data-direction="lr" id="element_bpo">
                 <div class="menu__item-inner">
                     <div class="sidemenu">
                         <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Back office process
@@ -241,7 +243,7 @@
                     <p class="label label--topleft label--vert-mirror">Bpo Services</p>
                 </div>
             </div>
-            <div class="menu__item menu__item--3" data-direction="bt">
+           <div class="menu__item menu__item--3" data-direction="lr" id="element_it">
                 <div class="menu__item-inner">
                     <div class="sidemenu">
                         <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Mobile
@@ -258,7 +260,7 @@
                     <p class="label label--topleft label--vert-mirror">It Services</p>
                 </div>
             </div>
-            <div class="menu__item menu__item--4" data-direction="lr">
+            <!--  <div class="menu__item menu__item--4" data-direction="lr">
                 <div class="menu__item-inner">
                     <div class="sidemenu">
                         <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">About
@@ -271,8 +273,8 @@
                     </div>
                     <p class="label label--topleft label--vert-mirror">Company</p>
                 </div>
-            </div>
-            <div class="menu__item menu__item--5" data-direction="tb">
+            </div> -->
+            <div class="menu__item menu__item--5" data-direction="tb" id="element_market">
                 <div class="menu__item-inner">
                     <div class="sidemenu">
                         <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Search engine
@@ -289,14 +291,14 @@
                     </div>
                     <p class="label label--topleft label--vert-mirror">Marketing Services</p>
                 </div>
-            </div>
+            </div> 
         </div>
         <button class="action action--menu"><i class="las la-bars"></i></button>
         <button class="action action--close"><i class="las la-times"></i></button>
     </nav>
 
     <!-- Banner Section  -->
-    <section class="video_slider video_slider_full">
+    <section class="video_slider video_slider_full" >
         <!-- <div class="bg-circle">
             <img src="img/red-circle-full.svg" alt="">
         </div> -->
@@ -305,11 +307,17 @@
                 <p id="testP">We Are<br> <small class="big_excellis">Tech Performance</small></p><span id="testJ"></span>
             </div>
         </div>
+        <div class="main">
+            
+            <div class="d2"></div>
+            <div class="d3"></div>
+            <div class="d4"></div>
+        </div>
         <!--<div class="video_overlay"></div> -->
 
-        <div class="banner_img">
+        <!-- <div class="banner_img"  >
            <img src="img/banner_webex.webp" alt="">
-        </div>
+        </div> -->
 
       
         <div class="particles-container">
@@ -843,61 +851,7 @@
                 </div>
             </div>
         </div>
-        <div class="cad_services_sec">
-               <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-12">
-                        <div class="bpo_services_title">
-                            <div class="tiitle_new_inner">
-                                <span>CAD Services</span>
-                                <div class="reveal-holder white_title" data-aos="reveal-item">
-                                    <h2 class="">
-                                        <b>
-                                            <div class="reveal-block right" data-aos="reveal-right"></div>Turning
-                                        </b>
-                                        <b>
-                                            <div class="reveal-block right" data-aos="reveal-right"></div>Your Ideas
-                                        </b>
-                                        <b>
-                                            <div class="reveal-block right" data-aos="reveal-right"></div>Into Reality
-                                        </b>
-                                    </h2>
-                                </div>
-                                <a href="CAD-drawing-services.html">Explore More <i class="las la-long-arrow-alt-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-5 cad__archi" data-aos="fade-down" data-aos-duration="2000">
-                    <div class="col-md-7">
-                        <div class="cad_archi_home_serv_con" data-aos="fade-down" data-aos-duration="1000">
-                            <h4>Architecture</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, praesentium animi. Maiores culpa vitae consequatur rerum unde laborum? Veritatis unde ad earum voluptatibus, excepturi consequuntur laboriosam ut sint odio quo.</p>
-                            <a href="CAD-drawing-services.html" class="bpo_red_more">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="cad_archi_home_serv_img" data-aos="fade-down" data-aos-duration="1000">
-                            <img src="img/archi2.jpg" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                <div class="row mb-5 cad__archi" data-aos="fade-down" data-aos-duration="2000">
-                    <div class="col-md-5">
-                        <div class="cad_archi_home_serv_img" data-aos="fade-down" data-aos-duration="1000">
-                            <img src="img/mechanical_cad.jpg" class="img-fluid" />
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="cad_archi_home_serv_con" data-aos="fade-down" data-aos-duration="1000">
-                            <h4>Mechanical</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea rem ipsam error officia odio reprehenderit iste, mollitia dicta neque a et quidem eos cumque maxime dolorem architecto minus commodi laudantium.</p>
-                            <a href="CAD-drawing-services.html" class="bpo_red_more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="sidebar-item" data-spy="scroll" data-target=".make-me-sticky" data-offset="50" data-spy="affix">
             <div class="make-me-sticky">
                 <h4 class="m-0">Our Offering</h4>
@@ -1161,7 +1115,7 @@
             </div>
         </footer>
     </section>
-  
+   
     <script type="application/javascript" src="js/owl.carousel.js"></script>
     <script type="application/javascript" src="js/aos.js"></script>
     <script src='js/jquery.mixitup.min.js'></script>
@@ -1170,8 +1124,11 @@
     <script defer type="application/javascript" src="js/typed.js"></script>
     <script defer type="application/javascript" src="js/TweenMax.min.js"></script>
     <script defer type="application/javascript" src="js/navigation.js"></script>
+    <script defer type="application/javascript" src="js/nav_anime.js"></script>
     <script src="js/anime.min.js"></script>
     <script src="js/three.min.js"></script>
+    <script src="js/vanta.birds.min.js"></script>
+
 
 
 

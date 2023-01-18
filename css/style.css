@@ -1,4 +1,4 @@
-/*
+/*menu__item
  * Excellis
  * Author: Ikbal Hossain
  */
@@ -23,6 +23,116 @@ body {
     font-family: 'Poppins', sans-serif;
     transition: ease-in all 0.3s;
 }
+.main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .d1 {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: 2700px 1500px;
+    height: 30vh;
+    width: 15vw;
+  
+    background-position: 0 50%;
+  
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    animation: dd1 10s 1, dd12 10s 1;
+    animation-delay: 4s, 14s;
+  }
+  .d2 {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: 2700px 1500px;
+  
+    height: 50vh;
+    width: 25vw;
+  
+    background-position: -10vw 50%;
+    left: 10vw;
+  
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    animation: dd2 10s 2;
+    animation-delay: 4s;
+  }
+  .d3 {
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: 2700px 1500px;
+    overflow: hidden;
+  
+    height: 100vh;
+    width: 40vw;
+    left: 25vw;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+    background-position: -35vw 50%;
+  
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    animation: dd3 10s 2;
+    animation-delay: 4s;
+  }
+  .d4 {
+    position: absolute;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: 2700px 1500px;
+  
+    height: 80vh;
+    width: 25vw;
+    left: 60vw;
+    background-position: -70vw 50%;
+  
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    animation: dd4 10s 2;
+    animation-delay: 4s;
+  }
+  
+  @keyframes dd1 {
+    0% {
+    }
+    50% {
+      width: 95vw;
+    }
+  }
+  @keyframes dd12 {
+    0% {
+    }
+    50% {
+      background-position: Calc(0vw - 40px) 50%;
+    }
+  }
+  @keyframes dd2 {
+    0% {
+    }
+    50% {
+      background-position: Calc(-10vw - 40px) 50%;
+    }
+  }
+  @keyframes dd3 {
+    0% {
+    }
+    50% {
+      background-position: Calc(-35vw - 40px) 50%;
+    }
+  }
+  @keyframes dd4 {
+    0% {
+    }
+    50% {
+      background-position: Calc(-70vw - 40px) 50%;
+    }
+  }
+  
 
 .loader {
     position: fixed;
@@ -669,7 +779,9 @@ a:hover {
 .video_slider {
     height: auto;
     overflow: hidden;
-    position: relative
+    position: relative;
+    background-color: #111111;
+
 }
 
 
@@ -722,7 +834,7 @@ small.big_excellis {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 90px 40px;
-    background-color: rgba(134, 134, 134, 0.2);
+    background-color: transparent;
     border-radius: 12px;
     height: 400px;
     width: 700px;
@@ -1370,7 +1482,7 @@ img.rotate_shape2 {
     position: relative
 }
 
-.abt_content h4 span {
+.abt_content h5 span {
     font-weight: 700;
 }
 
@@ -5219,7 +5331,7 @@ a.btn.btn-block.btn-hire-submit {
     color: #000;
     text-transform: capitalize;
     font-weight: 600;
-    margin-top: -70px;
+    
 }
 .main_sec.color_black p {
     color: #000;
@@ -6880,6 +6992,15 @@ span.big_tech_text {
 
 /* Reveal block */
 
+.reveal-holder
+{
+    margin-top: 11vh;
+}
+.reveal-holder2
+{
+    margin-top: 30vh;
+}
+
 .reveal-holder .reveal-block {
     position: absolute;
     top: 0;
@@ -6916,13 +7037,14 @@ span.big_tech_text {
 
 .reveal-holder2 h4 b {
     position: relative;
+    font-size: 44px;
     margin-bottom: 10px;
     width: fit-content;
     line-height: 50px;
 }
 
 .reveal-holder2 h4 {
-    line-height: 40px;
+    line-height: 20px;
 }
 
 .reveal-holder2 h4 {
@@ -7348,6 +7470,7 @@ span.big_tech_text {
     .menu__item {
         height: 280px;
     }
+
     .top_header_section{
         display:none;
     }
@@ -8025,7 +8148,7 @@ span.big_tech_text {
     }
 
     .abt_content h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .top_info_sec {
